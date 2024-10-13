@@ -1,31 +1,70 @@
 # Gamer's Corner
 
-    Mock-up images
+Mock-up images
 
-    [Link to project](https://)
+[Link to project](https://)
 
-    Some information text about the website
+Gamer's corner is a fictional website and were created for educational purposes. The website is a club for gamers that are interested in playing pc-games with others. The site consists of XX pages to meet the owner and user goals of which are described in the UX-section. 
 
-# Table of contents
+## Table of contents
 
-    1. UX
+- UX
 
-    2. Features
+- Features
 
-    3. Technologies
+- Technologies
 
-    4. Testing
+- Testing
 
-    5. Deployment
+- Deployment
 
-    6. Credits
+- Credits
 
-# UX
+## UX
 
-## User stories
+### Site owner's goals
+
+- Increase attendance at game-night events.
+
+### External user goals
+
+- Information about upcoming game-nights.
+
+- Sign-up to game-nights via a form. 
+
+### User stories
 
 
-## Wireframes
+### Wireframes
 
-    - Links to wireframes
+- Links to wireframes
 
+#### Phone
+
+#### Tablet
+
+#### Browser
+
+---
+
+## Features
+
+---
+
+## Technologies
+
+---
+
+## Testing
+
+---
+
+## Deployment
+
+---
+
+## Future improvements
+
+---
+
+## Credits
