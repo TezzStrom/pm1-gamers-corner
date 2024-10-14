@@ -89,15 +89,17 @@ The goal of Gamer's Corner is to create an engaging online community where PC ga
 
 - The contact information will be placed in the footer for inquiries.
 
-#### Design choices
-
-The overall intended feeling of the website is supposed to be an inviting, cozy, gaming atmosphere. The following design choices for this project was made with this in mind. 
-
-
-
 ### Wireframes
 
 - Links to wireframes
+
+#### Design choices
+
+The overall intended feeling of the website is supposed to be an inviting and cozy-gaming atmosphere. The following design choices for this project was made with this in mind. 
+
+
+
+
 
 #### Phone
 
