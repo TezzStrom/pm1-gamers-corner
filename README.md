@@ -77,17 +77,23 @@ The goal of Gamer's Corner is to create an engaging online community where PC ga
 
 - To ensure a responsive design and user-friendly interface, I will apply a mobile-first approach. <mark>This is recommended by the Code Institute as well (Introduction to Love Running module).</mark>
 
-- There will be a clear call-to-action button on the first and second page for easy accesability which will lead to the sign-up form.
+- There will be on or more clear call-to-action button on the first and second page for easy accesability which will lead to the sign-up form.
 
 - There will be a section on the home page contatining information about the events.
 
 - There will be an easy accesible navigation bar in the browser and a hamburgermenu on phone and tablet in the upper right corner for easy access and recognition for the user on all pages. 
 
-- There will be a separate page where users can vote for the top three games of the upcoming week, as well as a gallery with high-quality pictures and informative text of all the games that they can vote for. 
+- There will be a separate page (*Games*) where users can vote for the top three games of the upcoming week, as well as a gallery with high-quality pictures and informative text of all the games that they can vote for. 
 
-- There will be a third page with contact information where users can submit inquiries and access a sign-up form. The sign-up form will have a field where the users must enter their email for easier administration by the site owner. 
+- There will be a third page (*Sign-up*) to access a sign-up form. The sign-up form will have a field where the users must enter their email for easier administration by the site owner. 
 
-### Design choices
+- The contact information will be placed in the footer for inquiries.
+
+#### Design choices
+
+The overall intended feeling of the website is supposed to be an inviting, cozy, gaming atmosphere. The following design choices for this project was made with this in mind. 
+
+
 
 ### Wireframes
 
@@ -122,3 +128,7 @@ The goal of Gamer's Corner is to create an engaging online community where PC ga
 ---
 
 ## Credits
+
+- I accidentally wrote the wrong message in a commit. To change that I followed this guide in GitHub docs:
+
+[Changing a commit message](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message)
