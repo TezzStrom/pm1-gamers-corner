@@ -93,27 +93,27 @@ The goal of Gamer's Corner is to create an engaging online community where PC ga
 
 #### Phone
 
-- [Home](./docs/wireframes/gamerscorner_home_phone.png)
-- [Games](./docs/wireframes/gamerscorner_games_phone.png)
-- [Sign-up](./docs/wireframes/gamerscorner_signupform_phone.png)
-- [Welcome](./docs/wireframes/gamerscorner_welcome_phone.png)
-- [404](./docs/wireframes/gamerscorner_404_phone.png)
+- [Home](./docs/wireframes/wireframe_gamerscorner_home_phone.png)
+- [Games](./docs/wireframes/wireframe_gamerscorner_games_phone.png)
+- [Sign-up](./docs/wireframes/wireframe_gamerscorner_signupform_phone.png)
+- [Welcome](./docs/wireframes/wireframe_gamerscorner_welcome_phone.png)
+- [404](./docs/wireframes/wireframe_gamerscorner_404_phone.png)
 
 #### Tablet
 
-- [Home](./docs/wireframes/gamerscorner_home_tablet.png)
-- [Games](./docs/wireframes/gamerscorner_games_tablet.png)
-- [Sign-up](./docs/wireframes/gamerscorner_signupform_tablet.png)
-- [Welcome](./docs/wireframes/gamerscorner_welcome_tablet.png)
-- [404](./docs/wireframes/gamerscorner_404_tablet.png)
+- [Home](./docs/wireframes/wireframe_gamerscorner_home_tablet.png)
+- [Games](./docs/wireframes/wireframe_gamerscorner_games_tablet.png)
+- [Sign-up](./docs/wireframes/wireframe_gamerscorner_signupform_tablet.png)
+- [Welcome](./docs/wireframes/wireframe_gamerscorner_welcome_tablet.png)
+- [404](./docs/wireframes/wireframe_gamerscorner_404_tablet.png)
 
 #### Browser
 
-- [Home](./docs/wireframes/gamerscorner_home_browser.png)
-- [Games](./docs/wireframes/gamerscorner_games_browser.png)
-- [Sign-up](./docs/wireframes/gamerscorner_signupform_browser.png)
-- [Welcome](./docs/wireframes/gamerscorner_welcome_browser.png)
-- [404](./docs/wireframes/gamerscorner_404_browser.png)
+- [Home](./docs/wireframes/wireframe_gamerscorner_home_browser.png)
+- [Games](./docs/wireframes/wireframe_gamerscorner_games_browser.png)
+- [Sign-up](./docs/wireframes/wireframe_gamerscorner_welcome_browser.png)
+- [Welcome](./docs/wireframes/wireframe_gamerscorner_welcome_browser.png)
+- [404](./docs/wireframes/wireframe_gamerscorner_404_browser.png)
 
 #### Design choices
 
@@ -121,6 +121,9 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 **Color palette**
 
+
+
+**Contrast checker**
 
 ---
 
