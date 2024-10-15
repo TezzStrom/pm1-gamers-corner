@@ -131,6 +131,18 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 ## Credits
 
-- I accidentally wrote the wrong message in a commit. To change that I followed this guide in GitHub docs:
+### Tools
 
-[Changing a commit message](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message)
+| Source  | Location | Type | Notes |
+| ------------- | ------------- | ------------- | ------------- |
+| GitHub Docs  | Readme.md, commit messages  | Syntax | How to write markdown  |
+| Balsamiq | GitHub | Wireframes | Tool for creating wireframes which are linked in the README.md file |
+| The element of user experience by Jesse James Garrett (2nd edition)  | Planning/design | Book | Used the book to read more about the five planes |
+| Content Cell | Content Cell | Content Cell | Content Cell |
+
+### Media
+
+| Source  | Location | Type | Notes |
+| ------------- | ------------- | ------------- | ------------- |
+| Content Cell | Content Cell | Content Cell | Content Cell |
+| Content Cell | Content Cell | Content Cell | Content Cell |
