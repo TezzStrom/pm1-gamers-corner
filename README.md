@@ -8,17 +8,17 @@ Gamer's corner is a fictional website and were created for educational purposes.
 
 ## Table of contents
 
-- UX
+- [UX](#ux)
 
-- Features
+- [Features](#features)
 
-- Technologies
+- [Technologies](#technologies)
 
-- Testing
+- [Testing](#testing)
 
-- Deployment
+- [Deployment](#deployment)
 
-- Credits
+- [Credits](#credits)
 
 ## UX
 
@@ -75,7 +75,7 @@ The goal of Gamer's Corner is to create an engaging online community where PC ga
 
 #### Key-features to meet the goals
 
-- To ensure a responsive design and user-friendly interface, I will apply a mobile-first approach. <mark>This is recommended by the Code Institute as well (Introduction to Love Running module).</mark>
+- To ensure a responsive design and user-friendly interface, I will apply a mobile-first approach. **This is recommended by the Code Institute as well (Introduction to Love Running module).**
 
 - There will be on or more clear call-to-action button on the first and second page for easy accesability which will lead to the sign-up form.
 
@@ -91,21 +91,34 @@ The goal of Gamer's Corner is to create an engaging online community where PC ga
 
 ### Wireframes
 
-- Links to wireframes
+#### Phone
+
+- [Home](./docs/wireframes/gamerscorner_home_phone.png)
+- [Games](./docs/wireframes/gamerscorner_games_phone.png)
+- [Sign-up](./docs/wireframes/gamerscorner_signupform_phone.png)
+- [Welcome](./docs/wireframes/gamerscorner_welcome_phone.png)
+- [404](./docs/wireframes/gamerscorner_404_phone.png)
+
+#### Tablet
+
+- [Home](./docs/wireframes/gamerscorner_home_tablet.png)
+- [Games](./docs/wireframes/gamerscorner_games_tablet.png)
+- [Sign-up](./docs/wireframes/gamerscorner_signupform_tablet.png)
+- [Welcome](./docs/wireframes/gamerscorner_welcome_tablet.png)
+- [404](./docs/wireframes/gamerscorner_404_tablet.png)
+
+#### Browser
+
+- [Home](./docs/wireframes/gamerscorner_home_browser.png)
+- [Games](./docs/wireframes/gamerscorner_games_browser.png)
+- [Sign-up](./docs/wireframes/gamerscorner_signupform_browser.png)
+- [Welcome](./docs/wireframes/gamerscorner_welcome_browser.png)
+- [404](./docs/wireframes/gamerscorner_404_browser.png)
 
 #### Design choices
 
 The overall intended feeling of the website is supposed to be an inviting and cozy-gaming atmosphere. The following design choices for this project was made with this in mind. 
 
-
-
-
-
-#### Phone
-
-#### Tablet
-
-#### Browser
 
 ---
 
@@ -137,8 +150,8 @@ The overall intended feeling of the website is supposed to be an inviting and co
 | ------------- | ------------- | ------------- | ------------- |
 | GitHub Docs  | Readme.md, commit messages  | Syntax | How to write markdown  |
 | Balsamiq | GitHub | Wireframes | Tool for creating wireframes which are linked in the README.md file |
-| The element of user experience by Jesse James Garrett (2nd edition)  | Planning/design | Book | Used the book to read more about the five planes |
-| Content Cell | Content Cell | Content Cell | Content Cell |
+| The element of user experience by Jesse James Garrett (2nd edition) | Planning/design | Book | Used the book to read more about the five planes |
+| Stackoverflow | README.md | Syntax | How to make bold text in markdown, found the right formatting later in GitHub Docs. |
 
 ### Media
 
