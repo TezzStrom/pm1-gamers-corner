@@ -121,9 +121,15 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 **Color palette**
 
-
+![An image of the color palette for the website](./docs/colors/Color_palette.png)
 
 **Contrast checker**
+
+- Changed the light pink to a lighter shade since is didn't pass the contrast checker with the dark purple. From #D07ACE to #D68AD5. 
+
+- I also decided to change the purple color to a darker shade since it only worked with the white color. Now it works with the blue shade as well. From #5D18BD to #3E117E.
+
+![An image of the contrast checker](./docs/colors/Contrast_checker.png)
 
 ---
 
@@ -145,18 +151,28 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 ## Credits
 
-### Tools
+### Tools 
 
 | Source  | Location | Type | Notes |
 | ------------- | ------------- | ------------- | ------------- |
-| GitHub Docs  | Readme.md, commit messages  | Syntax | How to write markdown  |
-| Balsamiq | GitHub | Wireframes | Tool for creating wireframes which are linked in the README.md file |
+| [GitHub Docs](https://docs.github.com/en)  | Readme.md, commit messages  | Syntax | How to write markdown  |
+| [Balsamiq](https://balsamiq.com/) | GitHub | Wireframes | Tool for creating wireframes which are linked in the README.md file |
 | The element of user experience by Jesse James Garrett (2nd edition) | Planning/design | Book | Used the book to read more about the five planes |
-| Stackoverflow | README.md | Syntax | How to make bold text in markdown, found the right formatting later in GitHub Docs. |
+| [Stackoverflow](https://stackoverflow.com/) | README.md | Syntax | How to make bold text in markdown, found the right formatting later in GitHub Docs. |
+| [Image color picker](https://imagecolorpicker.com/) | Colors | Color picker | This tool was used to choose colors for the color palette. |
+| [WEBAIM, web accessability in mind](https://webaim.org/resources/contrastchecker/) | Colors | Contrast checker | This tool was used to ensure that colors has a high enough contrast for visually impaired. |
+[Figma](https://www.figma.com/) | Colors | Color palette, contrast checker | This tool was used to create a color palette and a table of the contrast checker. |
+
 
 ### Media
 
 | Source  | Location | Type | Notes |
 | ------------- | ------------- | ------------- | ------------- |
+| [Freepik](https://www.freepik.com/) | images, **background** | images | This website was used to download images to the site. |
 | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell |
+
+### Challenges
+
+| Source  | Location | Type | Notes |
+| ------------- | ------------- | ------------- | ------------- |
+[Youtube](https://www.youtube.com/watch?v=qVvcPoAj_-w) | git | git reset --hard <SHA> | I accidentally copied the wrong SHA so I followed this tutorial to undo the reset. |
