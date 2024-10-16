@@ -174,9 +174,11 @@ The overall intended feeling of the website is supposed to be an inviting and co
 | [Stackoverflow](https://stackoverflow.com/) | README.md | Syntax | How to make bold text in markdown, found the right formatting later in GitHub Docs. |
 | [Image color picker](https://imagecolorpicker.com/) | Colors | Color picker | This tool was used to choose colors for the color palette. |
 | [WEBAIM, web accessability in mind](https://webaim.org/resources/contrastchecker/) | Colors | Contrast checker | This tool was used to ensure that colors has a high enough contrast for visually impaired. |
-[Figma](https://www.figma.com/) | Colors | Color palette, contrast checker | This tool was used to create a color palette and a table of the contrast checker. |
-[Fontjoy](https://fontjoy.com/) | Fonts |  Font-generator | Used to produce fonts for the website. |
-[Google fonts](https://fonts.google.com/) | Fonts | Embedded code | Used to get embedded code for the fonts. |
+| [Figma](https://www.figma.com/) | Colors | Color palette, contrast checker | This tool was used to create a color palette and a table of the contrast checker. |
+| [Fontjoy](https://fontjoy.com/) | Fonts |  Font-generator | Used to produce fonts for the website. |
+| [Google fonts](https://fonts.google.com/) | Fonts | Embedded code | Used to get embedded code for the fonts. |
+| [Bootstrap](https://getbootstrap.com/) | Elements/Syntax | - | For responsive design and elements, see comments in code. |
+
 
 
 ### Media
