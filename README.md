@@ -144,9 +144,13 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 ### Lighthouse
 
-![Not enough place around buttons](./docs/testing/img/Screenshot%202024-10-16%20201019.png)
+![Not enough place around buttons](./docs/testing/img/testing_buttons.png)
 
 - While lighthouse testing there wasn't enough spacing around the buttons so I decided to make it larger to increase the area.
+
+![No aria-label text for social links that are just texts](./docs/testing/img/testing_aria_label_social.png)
+
+- I missed to add aria-labels to the social links since they don't have any other explanation other than the link text.
 
 ### Bugs
 
