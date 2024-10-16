@@ -21,11 +21,14 @@
 
 body {
     font-family: var(--body-font);
+    color:#FFFFFF;
+    background-color: var(--primary-color);
 }
 
 h1 {
     font-family: var(--primary-font);
-    color: var(--primary-color)
+    color: var(--fifth-color);
+    font-size: 75px;
 }
 
 h2, h3 {
@@ -33,9 +36,23 @@ h2, h3 {
     color: var(--primary-color);
 }
 
-/* Game night section */
+.section {
+    padding-top: 150px; /*prevents the navbar to overlap the main content*/
+}
 
-/* Cards */
-.card {
-    min-height: 330px;
+/* Buttons */
+.button-full {
+    background-color: var(--fourth-color);
+    Border: 2px solid var(--secondary-color);
+    color: var(--secondary-color)
+}
+
+/* Navbar style */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logotype {
+    height: 65px;
 }
