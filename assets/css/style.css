@@ -63,6 +63,17 @@ h2, h3 {
     margin-bottom: 1.5rem;
 }
 
+/* Footer styles */
+footer {
+    border-top: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+#copyright {
+    background-color: #5ACAF7;
+    color: #210F4A;
+}
+
 
 /* Media queries starts here */
 
