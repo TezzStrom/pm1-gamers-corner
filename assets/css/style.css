@@ -32,3 +32,10 @@ h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
+
+/* Game night section */
+
+/* Cards */
+.card {
+    min-height: 330px;
+}
