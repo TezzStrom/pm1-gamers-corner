@@ -152,6 +152,8 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 ## Testing
 
+### Bugs
+
 ---
 
 ## Deployment
@@ -168,6 +170,7 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 | Source  | Location | Type | Notes |
 | ------------- | ------------- | ------------- | ------------- |
+| [Code Institute](https://codeinstitute.net/se/) | Project plannig, syntax and git commands | - | How to build the entire website and how to use git. |
 | [GitHub Docs](https://docs.github.com/en)  | Readme.md, commit messages  | Syntax | How to write markdown  |
 | [Balsamiq](https://balsamiq.com/) | GitHub | Wireframes | Tool for creating wireframes which are linked in the README.md file |
 | The element of user experience by Jesse James Garrett (2nd edition) | Planning/design | Book | Used the book to read more about the five planes |
@@ -178,6 +181,7 @@ The overall intended feeling of the website is supposed to be an inviting and co
 | [Fontjoy](https://fontjoy.com/) | Fonts |  Font-generator | Used to produce fonts for the website. |
 | [Google fonts](https://fonts.google.com/) | Fonts | Embedded code | Used to get embedded code for the fonts. |
 | [Bootstrap](https://getbootstrap.com/) | Elements/Syntax | - | For responsive design and elements, see comments in code. |
+
 
 
 
