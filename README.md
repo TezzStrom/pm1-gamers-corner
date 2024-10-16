@@ -181,6 +181,7 @@ The overall intended feeling of the website is supposed to be an inviting and co
 | [Fontjoy](https://fontjoy.com/) | Fonts |  Font-generator | Used to produce fonts for the website. |
 | [Google fonts](https://fonts.google.com/) | Fonts | Embedded code | Used to get embedded code for the fonts. |
 | [Bootstrap](https://getbootstrap.com/) | Elements/Syntax | - | For responsive design and elements, see comments in code. |
+| [Tinify](https://tinypng.com/) | Images | Compress images | This tool was used to compress images for optimization. |
 
 
 
@@ -190,8 +191,8 @@ The overall intended feeling of the website is supposed to be an inviting and co
 | Source  | Location | Type | Notes |
 | ------------- | ------------- | ------------- | ------------- |
 | [Freepik](https://www.freepik.com/) | images, **background** | images | This website was used to download images to the site. |
-| [Font awesome](https://fontawesome.com/) | Icons| Icons | Used to insert icons. |
-| Content Cell | Content Cell | Content Cell | Content Cell |
+| [Font awesome](https://fontawesome.com/) | Icons/Head icon | Icons | Used to insert icons. |
+| [UnDraw](https://undraw.co/search) | Logo | Image | Used UnDraw to find a logo. |
 
 
 ### Challenges

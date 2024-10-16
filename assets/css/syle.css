@@ -19,14 +19,16 @@
 
 /* Global styles */
 
+body {
+    font-family: var(--body-font);
+}
+
 h1 {
     font-family: var(--primary-font);
+    color: var(--primary-color)
 }
 
 h2, h3 {
     font-family: var(--secondary-font);
-}
-
-p {
-    font-family: var(--body-font);
+    color: var(--primary-color);
 }
