@@ -4,7 +4,7 @@ Mock-up images
 
 [Link to project](https://)
 
-Gamer's corner is a fictional website and were created for educational purposes. <mark>The website is a club for gamers that are interested in playing pc-games with others. The site consists of XX pages to meet the owner and user goals of which are described in the UX-section.</mark> 
+Gamer's corner is a fictional website and were created for educational purposes. <mark>The website is a club for gamers that are interested in playing pc-games with others. The site consists of XX pages to meet the owner and user goals of which are described in the UX-section.</mark>
 
 ## Table of contents
 
@@ -40,28 +40,29 @@ The goal of Gamer's Corner is to create an friendly online community where PC ga
 
 - Information on event details.
 
-- Sign-up to game nights via a form. 
+- Sign-up to game nights via a form.
 
 ### User stories
 
 #### As a site owner
+
 - I want to increase attendence to game nights.
 
-- I want to send invitations to the attendees via email for easy administration. 
+- I want to send invitations to the attendees via email for easy administration.
 
 #### As a user
 
-- I want easy navigation, a responsive design across devices and a user-friendly interface to avoid frustration when trying to find information. 
+- I want easy navigation, a responsive design across devices and a user-friendly interface to avoid frustration when trying to find information.
 
-- I want to find information about upcoming game nights to know whether I can attend.  
+- I want to find information about upcoming game nights to know whether I can attend.
 
-- I want to see information about what games will be played at each event to decide if I want to attend. 
+- I want to see information about what games will be played at each event to decide if I want to attend.
 
 - I want to sign-up for game nights through a form for the events that interest me.
 
 - I want to see high-quality pictures of the games.
 
-- I want to send a message to the site's owner so that I can ask questions about upcoming events or games. 
+- I want to send a message to the site's owner so that I can ask questions about upcoming events or games.
 
 ### Features
 
@@ -73,11 +74,11 @@ The goal of Gamer's Corner is to create an friendly online community where PC ga
 
 - There will be a section on the home page contatining information about the events.
 
-- There will be an easy accesible navigation bar in the browser and a hamburgermenu on phone and tablet in the upper right corner for easy access and recognition for the user on all pages. 
+- There will be an easy accesible navigation bar in the browser and a hamburgermenu on phone and tablet in the upper right corner for easy access and recognition for the user on all pages.
 
-- There will be a separate page (*Games*) where users can vote for the top three games of the upcoming week, as well as a gallery with high-quality pictures and informative text of all the games that they can vote for. 
+- There will be a separate page (_Games_) where users can vote for the top three games of the upcoming week, as well as a gallery with high-quality pictures and informative text of all the games that they can vote for.
 
-- There will be a third page (*Sign-up*) to access a sign-up form. The sign-up form will have a field where the users must enter their email for easier administration by the site owner. 
+- There will be a third page (_Sign-up_) to access a sign-up form. The sign-up form will have a field where the users must enter their email for easier administration by the site owner.
 
 - The contact information will be placed in the footer for inquiries.
 
@@ -109,7 +110,7 @@ The goal of Gamer's Corner is to create an friendly online community where PC ga
 
 #### Design choices
 
-The overall intended feeling of the website is supposed to be an inviting and cozy-gaming atmosphere. The following design choices for this project was made with this in mind. 
+The overall intended feeling of the website is supposed to be an inviting and cozy-gaming atmosphere. The following design choices for this project was made with this in mind.
 
 **Color palette**
 
@@ -117,7 +118,7 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 **Contrast checker**
 
-- Changed the light pink to a lighter shade since is didn't pass the contrast checker with the dark purple. From #D07ACE to #D68AD5. 
+- Changed the light pink to a lighter shade since is didn't pass the contrast checker with the dark purple. From #D07ACE to #D68AD5.
 
 - I also decided to change the purple color to a darker shade since it only worked with the white color. Now it works with the blue shade as well. From #5D18BD to #3E117E.
 
@@ -125,16 +126,13 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 **Fonts**
 
-- The fonts for all h1 elements are Passion One, for other heading elements Roboto Mono, and for the body text Titillium Web. I chose these three because they complement each other and create a dynamic trio. The choices were also made with the idea that they could reflect elements of gaming. 
+- The fonts for all h1 elements are Passion One, for other heading elements Roboto Mono, and for the body text Titillium Web. I chose these three because they complement each other and create a dynamic trio. The choices were also made with the idea that they could reflect elements of gaming.
 
 - <mark>As back-up fonts I chose XX for h1 elements, XX for other heading elements and XX for body text. </mark>
 
 **Backgrounds**
 
-
 **Styling**
-
-
 
 ---
 
@@ -144,7 +142,15 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 ## Testing
 
+### Lighthouse
+
+![Not enough place around buttons](./docs/testing/img/Screenshot%202024-10-16%20201019.png)
+
+- While lighthouse testing there wasn't enough spacing around the buttons so I decided to make it larger to increase the area.
+
 ### Bugs
+
+- when creating the footer, I had some trouble with how the containers and rows worked together with bootstrap grid. I added a background color to each of the container and rows to sort them out. It was also difficult to add all the col's, gap's and apply margins and paddings but in the end I worked it out.
 
 ---
 
@@ -160,37 +166,33 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 ## Credits
 
-### Tools 
+### Tools
 
-| Source  | Location | Type | Notes |
-| ------------- | ------------- | ------------- | ------------- |
-| [Code Institute](https://codeinstitute.net/se/) | Project plannig, syntax and git commands | - | How to build the entire website and how to use git. |
-| [GitHub Docs](https://docs.github.com/en)  | Readme.md, commit messages  | Syntax | How to write markdown  |
-| [Balsamiq](https://balsamiq.com/) | GitHub | Wireframes | Tool for creating wireframes which are linked in the README.md file |
-| The element of user experience by Jesse James Garrett (2nd edition) | Planning/design | Book | Used the book to read more about the five planes |
-| [Stackoverflow](https://stackoverflow.com/) | README.md | Syntax | How to make bold text in markdown, found the right formatting later in GitHub Docs. |
-| [Image color picker](https://imagecolorpicker.com/) | Colors | Color picker | This tool was used to choose colors for the color palette. |
-| [WEBAIM, web accessability in mind](https://webaim.org/resources/contrastchecker/) | Colors | Contrast checker | This tool was used to ensure that colors has a high enough contrast for visually impaired. |
-| [Figma](https://www.figma.com/) | Colors | Color palette, contrast checker | This tool was used to create a color palette and a table of the contrast checker. |
-| [Fontjoy](https://fontjoy.com/) | Fonts |  Font-generator | Used to produce fonts for the website. |
-| [Google fonts](https://fonts.google.com/) | Fonts | Embedded code | Used to get embedded code for the fonts. |
-| [Bootstrap](https://getbootstrap.com/) | Elements/Syntax | - | For responsive design and elements, see comments in code. |
-| [Tinify](https://tinypng.com/) | Images | Compress images | This tool was used to compress images for optimization. |
-
-
-
+| Source                                                                             | Location                                 | Type                            | Notes                                                                                      |
+| ---------------------------------------------------------------------------------- | ---------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------ |
+| [Code Institute](https://codeinstitute.net/se/)                                    | Project plannig, syntax and git commands | -                               | How to build the entire website and how to use git.                                        |
+| [GitHub Docs](https://docs.github.com/en)                                          | Readme.md, commit messages               | Syntax                          | How to write markdown                                                                      |
+| [Balsamiq](https://balsamiq.com/)                                                  | GitHub                                   | Wireframes                      | Tool for creating wireframes which are linked in the README.md file                        |
+| The element of user experience by Jesse James Garrett (2nd edition)                | Planning/design                          | Book                            | Used the book to read more about the five planes                                           |
+| [Stackoverflow](https://stackoverflow.com/)                                        | README.md                                | Syntax                          | How to make bold text in markdown, found the right formatting later in GitHub Docs.        |
+| [Image color picker](https://imagecolorpicker.com/)                                | Colors                                   | Color picker                    | This tool was used to choose colors for the color palette.                                 |
+| [WEBAIM, web accessability in mind](https://webaim.org/resources/contrastchecker/) | Colors                                   | Contrast checker                | This tool was used to ensure that colors has a high enough contrast for visually impaired. |
+| [Figma](https://www.figma.com/)                                                    | Colors                                   | Color palette, contrast checker | This tool was used to create a color palette and a table of the contrast checker.          |
+| [Fontjoy](https://fontjoy.com/)                                                    | Fonts                                    | Font-generator                  | Used to produce fonts for the website.                                                     |
+| [Google fonts](https://fonts.google.com/)                                          | Fonts                                    | Embedded code                   | Used to get embedded code for the fonts.                                                   |
+| [Bootstrap](https://getbootstrap.com/)                                             | Elements/Syntax                          | -                               | For responsive design and elements, see comments in code.                                  |
+| [Tinify](https://tinypng.com/)                                                     | Images                                   | Compress images                 | This tool was used to compress images for optimization.                                    |
 
 ### Media
 
-| Source  | Location | Type | Notes |
-| ------------- | ------------- | ------------- | ------------- |
-| [Freepik](https://www.freepik.com/) | images, **background** | images | This website was used to download images to the site. |
-| [Font awesome](https://fontawesome.com/) | Icons/Head icon | Icons | Used to insert icons. |
-| [UnDraw](https://undraw.co/search) | Logo | Image | Used UnDraw to find a logo. |
-
+| Source                                   | Location               | Type   | Notes                                                 |
+| ---------------------------------------- | ---------------------- | ------ | ----------------------------------------------------- |
+| [Freepik](https://www.freepik.com/)      | images, **background** | images | This website was used to download images to the site. |
+| [Font awesome](https://fontawesome.com/) | Icons/Head icon        | Icons  | Used to insert icons.                                 |
+| [UnDraw](https://undraw.co/search)       | Logo                   | Image  | Used UnDraw to find a logo.                           |
 
 ### Challenges
 
-| Source  | Location | Type | Notes |
-| ------------- | ------------- | ------------- | ------------- |
-[Youtube](https://www.youtube.com/watch?v=qVvcPoAj_-w) | git | git reset --hard <SHA> | I accidentally copied the wrong SHA so I followed this tutorial to undo the reset. |
+| Source                                                 | Location | Type                   | Notes                                                                              |
+| ------------------------------------------------------ | -------- | ---------------------- | ---------------------------------------------------------------------------------- |
+| [Youtube](https://www.youtube.com/watch?v=qVvcPoAj_-w) | git      | git reset --hard <SHA> | I accidentally copied the wrong SHA so I followed this tutorial to undo the reset. |
