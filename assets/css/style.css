@@ -1,6 +1,7 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
+
 /* CSS variables */
 :root {
     /* Fonts */
@@ -16,6 +17,7 @@
     --fifth-color: #FFFFFF; /*White*/
     --sixth-color: #000000; /*Black*/
 }
+
 
 /* Global styles */
 
@@ -44,6 +46,7 @@ h2, h3 {
     padding-top: 150px; /*prevents the navbar to overlap the main content*/
 }
 
+
 /* Buttons */
 .button-full {
     background-color: var(--fourth-color);
@@ -67,6 +70,7 @@ h2, h3 {
     height: 65px;
 }
 
+
 /* Header styling */
 #header {
     background: url("../img/game_room.jpg") no-repeat center center/cover;
@@ -81,11 +85,13 @@ h2, h3 {
     border-radius: 5px;
 }
 
+
 /* Card styling */
 
 .card {
     margin-bottom: 1.5rem;
 }
+
 
 /* Footer styles */
 footer {

@@ -160,6 +160,36 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 ## Deployment
 
+- when I were done with the index.html I added all the remaining changes, committed and pushed to GitHub. I decided to deploy early since it's recommended from the tutorials provided by the Code Institute. It's easier to compare both the local and the live to discover bugs or other problems early.
+
+1. First step was to add, commit and push everything to GitHub.
+
+![Step one: Add, commit and push to GitHub](./docs/screenshots/deployment/add_commit_push.png)
+
+2. Second step was to go to the repositories site and press on settings.
+
+![Step two: Go to repository site and press on settings.](./docs/screenshots/deployment/1_settings.png)
+
+3. Third step was to press the pages in the left panel.
+
+![Step three: Push the pages section](./docs/screenshots/deployment/2_pages.png)
+
+4. Fourth step was to chose source (deploy from branch) and then choose main and save.
+
+![Step four: Choose source, choose main and save.](./docs/screenshots/deployment/3_main_save.png)
+
+5. Step five was to go in to the actions tab and wait for it to finish processing.
+
+![Step five: Wait for the processing](./docs/screenshots/deployment/4_actions.png)
+
+6. Step six was to go back to the <>code page, find the deployed site and press the link.
+
+![Step six: Find the deployed site and press link](./docs/screenshots/deployment/5_deployed.png)
+
+7. Step seven was to click the link to ensure that the link works and that everything looks good (which it did).
+
+![Step seven: Clikc the link and check that everything works](./docs/screenshots/deployment/6_deployed_link.png)
+
 ---
 
 ## Future improvements
@@ -189,11 +219,12 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 ### Media
 
-| Source                                   | Location               | Type   | Notes                                                 |
-| ---------------------------------------- | ---------------------- | ------ | ----------------------------------------------------- |
-| [Freepik](https://www.freepik.com/)      | images, **background** | images | This website was used to download images to the site. |
-| [Font awesome](https://fontawesome.com/) | Icons/Head icon        | Icons  | Used to insert icons.                                 |
-| [UnDraw](https://undraw.co/search)       | Logo                   | Image  | Used UnDraw to find a logo.                           |
+| Source                                   | Location         | Type   | Notes                                                 |
+| ---------------------------------------- | ---------------- | ------ | ----------------------------------------------------- |
+| [Freepik](https://www.freepik.com/)      | images, portrait | images | This website was used to download images to the site. |
+| [Font awesome](https://fontawesome.com/) | Icons/Head icon  | Icons  | Used to insert icons.                                 |
+| [UnDraw](https://undraw.co/search)       | Logo             | Image  | Used UnDraw to find a logo.                           |
+| [Unsplash](https://unsplash.com/)        | hero background  | Image  | Used UnDraw to find a logo.                           |
 
 ### Challenges
 
