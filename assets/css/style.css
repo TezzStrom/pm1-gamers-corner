@@ -36,6 +36,10 @@ h2, h3 {
     color: var(--primary-color);
 }
 
+#h3-footer {
+    color: var(--secondary-color)
+}
+
 .section {
     padding-top: 150px; /*prevents the navbar to overlap the main content*/
 }
@@ -69,11 +73,23 @@ footer {
     border-bottom: 2px solid var(--secondary-color);
 }
 
+#contant-img {
+    max-height: 10px;
+}
+
 #copyright {
     background-color: #5ACAF7;
     color: #210F4A;
 }
 
+#contact_img {
+    max-height: 150px;
+    width: auto;
+}
+
+.social-links {
+    color: #FFFFFF;
+}
 
 /* Media queries starts here */
 
