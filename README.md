@@ -184,7 +184,9 @@ The overall intended feeling of the website is supposed to be an inviting and co
 | Source  | Location | Type | Notes |
 | ------------- | ------------- | ------------- | ------------- |
 | [Freepik](https://www.freepik.com/) | images, **background** | images | This website was used to download images to the site. |
+| [Font awesome](https://fontawesome.com/) | Icons| Icons | Used to insert icons. |
 | Content Cell | Content Cell | Content Cell | Content Cell |
+
 
 ### Challenges
 
