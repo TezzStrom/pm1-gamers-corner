@@ -4,9 +4,9 @@
 /* CSS variables */
 :root {
     /* Fonts */
-    --primary-font: "passion one";
-    --secondary-font: "roboto mono";
-    --body-font: "titillium web";
+    --primary-font: "Passion One", sans-serif;
+    --secondary-font: "Roboto Mono", monospace;
+    --body-font: "Titillium Web", sans-serif;
 
     /* Colors */
     --primary-color: #210F4A; /*Dark purple*/
