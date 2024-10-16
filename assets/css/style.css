@@ -28,7 +28,7 @@ body {
 h1 {
     font-family: var(--primary-font);
     color: var(--fifth-color);
-    font-size: 75px;
+    font-size: 60px;
 }
 
 h2, h3 {
@@ -55,4 +55,10 @@ h2, h3 {
 
 #navbar .logotype {
     height: 65px;
+}
+
+/* Card styling */
+
+.card {
+    margin-bottom: 1.5rem;
 }
