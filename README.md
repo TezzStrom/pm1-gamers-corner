@@ -131,6 +131,19 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 ![An image of the contrast checker](./docs/colors/Contrast_checker.png)
 
+**Fonts**
+
+- The fonts for all h1 elements are Passion One, for other heading elements Roboto Mono, and for the body text Titillium Web. I chose these three because they complement each other and create a dynamic trio. The choices were also made with the idea that they could reflect elements of gaming. 
+
+- <mark>As back-up fonts I chose XX for h1 elements, XX for other heading elements and XX for body text. </mark>
+
+**Backgrounds**
+
+
+**Styling**
+
+
+
 ---
 
 ## Technologies
@@ -162,6 +175,8 @@ The overall intended feeling of the website is supposed to be an inviting and co
 | [Image color picker](https://imagecolorpicker.com/) | Colors | Color picker | This tool was used to choose colors for the color palette. |
 | [WEBAIM, web accessability in mind](https://webaim.org/resources/contrastchecker/) | Colors | Contrast checker | This tool was used to ensure that colors has a high enough contrast for visually impaired. |
 [Figma](https://www.figma.com/) | Colors | Color palette, contrast checker | This tool was used to create a color palette and a table of the contrast checker. |
+[Fontjoy](https://fontjoy.com/) | Fonts |  Font-generator | Used to produce fonts for the website. |
+[Google fonts](https://fonts.google.com/) | Fonts | Embedded code | Used to get embedded code for the fonts. |
 
 
 ### Media
