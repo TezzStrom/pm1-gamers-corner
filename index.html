@@ -20,12 +20,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!--CSS-link-->
-    <a href="./assets/css/syle.css" rel="stylesheet"></a>
+    <link href="./assets/css/style.css" rel="stylesheet"></link>
 
 </head>
+
+<!--min-vh-100 to stretch the full viewport and classes working with mt-auto to ensure that footer stays in the bottom-->
 <body class="d-flex flex-column min-vh-100">
     <!--Navigation-->
-    <nav>Navigation</nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"><img src="./assets/img/logo.png" alt="Bootstrap" width="30" height="24"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"><button type="button" class="btn btn-primary">Sign-up</button></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
 
     <!--Main section starts here-->
     <main>
@@ -35,7 +57,7 @@
                 <div class="col-6">
                     <h1>Welcome to Gamer's Corner</h1>
                     <p>Gamer's corner is an engaging online community where PC gamers can connect over shared interests. We play games together three times a week and one time a week just chat and chill. You can vote for what games you want to play and the top three games of the week will be the games we play the following week. <br> We would love for you to join us so be sure to click the sign-up button below <i class="fa-regular fa-hand-point-down"></i> </p>
-                    <a class="btn btn-primary" href="./signup.html" role="button">Sign me up!</a>
+                    <a class="btn btn-primary" href="./signup.html" role="button">Sign-up</a>
                 </div>
             </div>
         </Header>
@@ -116,15 +138,16 @@
     </main>
 
     <!--Footer starts here-->
+    <!--mt-auto to push the footer to the bottom-->
     <footer class="mt-auto">
         <!--Section for main content in footer-->
         <section>
-
+            This is main section of the footer
         </section>
         
         <!--Section for copyright-->
         <section>
-
+            This is the copyright section of the footer
         </section>
     </footer>
 

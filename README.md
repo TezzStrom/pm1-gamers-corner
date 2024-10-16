@@ -24,7 +24,7 @@ Gamer's corner is a fictional website and were created for educational purposes.
 
 ### Project goals
 
-The goal of Gamer's Corner is to create an engaging online community where PC gamers can connect over shared interests. By providing a platform for users to vote on upcoming week's games and sign-up for events, the site promote friendships and collaboration among gamers. Through these features, Gamer's Corner aims to enhance the gaming experience by making it easier for players to discover, participate in, and enjoy events tailored to their preferences.
+The goal of Gamer's Corner is to create an friendly online community where PC gamers can connect over shared interests. By providing a platform for users to sign-up for events, the site promote friendships and collaboration among gamers. Gamer's Corner aims to enhance the gaming experience by making it easier for players to discover, participate in, and enjoy events.
 
 ### Site owner's goals
 
@@ -42,16 +42,12 @@ The goal of Gamer's Corner is to create an engaging online community where PC ga
 
 - Sign-up to game nights via a form. 
 
-- Vote for upcoming weeks games.
-
 ### User stories
 
 #### As a site owner
 - I want to increase attendence to game nights.
 
 - I want to send invitations to the attendees via email for easy administration. 
-
-- I want to involve attendees in deciding which games to play through voting.
 
 #### As a user
 
@@ -63,11 +59,7 @@ The goal of Gamer's Corner is to create an engaging online community where PC ga
 
 - I want to sign-up for game nights through a form for the events that interest me.
 
-- I want to vote for the top three games that will be played at game nights in the upcoming week. 
-
-- I want to find information about the games I can vote for to make an informed decision.
-
-- I want to see high-quality pictures of the games I can vote for. 
+- I want to see high-quality pictures of the games.
 
 - I want to send a message to the site's owner so that I can ask questions about upcoming events or games. 
 
@@ -161,6 +153,8 @@ The overall intended feeling of the website is supposed to be an inviting and co
 ---
 
 ## Future improvements
+
+- After talking to my mentor, we decided that I should leave out the vote function since that is something I have yet to learn.
 
 ---
 
