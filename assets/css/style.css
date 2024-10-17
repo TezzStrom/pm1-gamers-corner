@@ -35,7 +35,7 @@ h1 {
 
 h2, h3 {
     font-family: var(--secondary-font);
-    color: var(--primary-color);
+    color: var(--fifth-color);
 }
 
 #h3-footer {

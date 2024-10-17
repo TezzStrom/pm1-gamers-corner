@@ -57,15 +57,77 @@
     <!--Main section starts here-->
     <main>
         <!--Header starts here-->
-        <header class="container-fluid section">
-            <div class="container">
-                <div class="row">
+        <header class="container section">
+            <div class="row">
+                <h1 class="text-center mb-4">Games</h1>
 
+                <!--Carousel starts here-->
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
+                <h2 class="text-center mt-4 mb-5">Top 3 favourite games of the week</h2>
             </div>
         </header>
 
+        <section class="container">
+            <div class="row">
+                <h2 class="text-center my-4">Games in rotation</h2>
+            </div>
+            
+            <div>
+                <img src="" alt="">
+                <button type="button" class="btn button-full" data-bs-toggle="modal" data-bs-target="#game1">
+                    About this game
+                </button>
+            </div>
+        </section>
     </main>
+
+    <!--Original modal from Bootstrap, erase later-->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn button-full" data-bs-toggle="modal" data-bs-target="#game1">
+    About this game
+    </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="game1" tabindex="-1" aria-labelledby="A modal with information about the game." aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title fs-5" id="exampleModalLabel">Game title</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="" alt="">
+          <p>This is a game</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn button-full" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 
     <!--Footer starts here-->
     <!--mt-auto to push the footer to the bottom-->
@@ -105,6 +167,7 @@
     <span id="copyright" class="text-center p-4">
        <p> <i class="fa-regular fa-copyright"></i> This is a website made by Tezz Strömberg, it was created for educational purposes and project milestone 1.</p>
     </span>
+
     <!--Bootstrap js script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
