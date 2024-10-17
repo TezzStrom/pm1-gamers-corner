@@ -112,6 +112,18 @@ h2, h3 {
     background-color: var(--fifth-color);
 }
 
+.game-cards .card-title {
+    min-height: 70px; /* To make all game-card headings the same height */
+    color: var(--fourth-color);
+}
+
+/* Signup styling */
+
+#hero-signup {
+    background: url("../img/gaming.jpg") no-repeat top center/cover;
+    height: 700px;
+    width: 100%;
+}
 
 /* Footer styles */
 footer {

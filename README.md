@@ -68,7 +68,7 @@ The goal of Gamer's Corner is to create an friendly online community where PC ga
 
 #### Key-features to meet the goals
 
-- To ensure a responsive design and user-friendly interface, I will apply a mobile-first approach. **This is recommended by the Code Institute as well (Introduction to Love Running module).**
+- To ensure a responsive design and user-friendly interface, I will apply a mobile-first approach.
 
 - There will be on or more clear call-to-action button on the first and second page for easy accesability which will lead to the sign-up form.
 
@@ -156,11 +156,29 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 - when creating the footer, I had some trouble with how the containers and rows worked together with bootstrap grid. I added a background color to each of the container and rows to sort them out. It was also difficult to add all the col's, gap's and apply margins and paddings but in the end I worked it out.
 
+**Caption text**
+
 - Had troubles with the caption text disappearing on small devices on the carousel. Turned out to be a couple of classes that needed to be changed. I erased the d-none and -md- so it just says d-block to keep the block but not the grid properties (see the marked part on the second image).
 
 ![the caption disappears on small devices](./docs/screenshots/bugs/caption_disappear_sm.png)
 
 ![The class that solved it](./docs/screenshots/bugs/caption_solved.png)
+
+**Gap on cards**
+
+-When I tried to give the cards on the game page a gap they didn't work how I thought they would. Instead of gap the third column was moved to the next row. To solve this, I found on Bootstrap that they need to be in another div with just the column properties.
+
+_Problem_
+
+![The syntax of the problem](./docs/screenshots/bugs/card_gap_problem.png)
+
+![How the problem looked](./docs/screenshots/bugs/card_gap_problem_2.png)
+
+_Solution_
+
+![The solver syntax](./docs/screenshots/bugs/card_gap_problem_solved.png)
+
+![The result of the changed syntax](./docs/screenshots/bugs/card_gap_problem_solved_2.png)
 
 ---
 
@@ -235,6 +253,7 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 ### Challenges
 
-| Source                                                 | Location | Type                   | Notes                                                                              |
-| ------------------------------------------------------ | -------- | ---------------------- | ---------------------------------------------------------------------------------- |
-| [Youtube](https://www.youtube.com/watch?v=qVvcPoAj_-w) | git      | git reset --hard <SHA> | I accidentally copied the wrong SHA so I followed this tutorial to undo the reset. |
+| Source                                                                                                                    | Location | Type                   | Notes                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------- | ------------------------------------------------------------------------------------------------- |
+| [Youtube](https://www.youtube.com/watch?v=qVvcPoAj_-w)                                                                    | git      | git reset --hard <SHA> | I accidentally copied the wrong SHA so I followed this tutorial to undo the reset.                |
+| [Stackoverflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-cards-the-same-height-in-card-columns) | Cards    | Height                 | To make the cards on the game page the same height I used align-items-stretch from Stackoverflow. |
