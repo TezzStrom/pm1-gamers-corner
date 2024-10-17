@@ -99,9 +99,6 @@ h2, h3 {
     background-color: var(--fifth-color);
 }
 
-.modal-header, .modal-body {
-    color: var(--sixth-color);
-}
 
 /* Footer styles */
 footer {
