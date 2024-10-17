@@ -20,6 +20,10 @@
 
 
 /* Global styles */
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 107px; /* To scroll down the page from welcome button link, see credits Kevin powell */
+}
 
 body {
     font-family: var(--body-font);
@@ -147,6 +151,21 @@ footer {
 
 .social-links {
     color: #FFFFFF;
+}
+
+/* Welcome styling */
+#welcome-games {
+    background: url("../img/1_Dragonspire_chronicles.webp") no-repeat center center/cover;
+    height: 350px;
+    border: 2px solid var(--third-color);
+    border-radius: 5px;
+}
+
+#welcome-gamenights {
+    background: url("../img/game_night_picture.jpg") no-repeat center center/cover;
+    height: 350px;
+    border: 2px solid var(--third-color);
+    border-radius: 5px;
 }
 
 /* Media queries starts here */

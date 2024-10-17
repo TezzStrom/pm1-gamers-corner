@@ -154,11 +154,13 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 ### Bugs
 
+**Containers and rows in footer**
+
 - when creating the footer, I had some trouble with how the containers and rows worked together with bootstrap grid. I added a background color to each of the container and rows to sort them out. It was also difficult to add all the col's, gap's and apply margins and paddings but in the end I worked it out.
 
 **Caption text**
 
-- Had troubles with the caption text disappearing on small devices on the carousel. Turned out to be a couple of classes that needed to be changed. I erased the d-none and -md- so it just says d-block to keep the block but not the grid properties (see the marked part on the second image).
+- I had troubles with the caption text disappearing on small devices on the carousel. Turned out to be a couple of classes that needed to be changed. I erased the d-none and md so it just says d-block to keep the block but not the grid properties (see the marked part on the second image).
 
 ![the caption disappears on small devices](./docs/screenshots/bugs/caption_disappear_sm.png)
 
@@ -218,7 +220,7 @@ _Solution_
 
 ## Future improvements
 
-- After talking to my mentor, we decided that I should leave out the vote function since that is something I have yet to learn.
+- After talking to my mentor, we decided that I should leave out the vote function (see wireframes games page) since I have yet to learn the functionality behind that type of data. I would like to implement it later though because of the improved UX, the user is involved in decision making about what games to play.
 
 ---
 
@@ -253,7 +255,8 @@ _Solution_
 
 ### Challenges
 
-| Source                                                                                                                    | Location | Type                   | Notes                                                                                             |
-| ------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------- | ------------------------------------------------------------------------------------------------- |
-| [Youtube](https://www.youtube.com/watch?v=qVvcPoAj_-w)                                                                    | git      | git reset --hard <SHA> | I accidentally copied the wrong SHA so I followed this tutorial to undo the reset.                |
-| [Stackoverflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-cards-the-same-height-in-card-columns) | Cards    | Height                 | To make the cards on the game page the same height I used align-items-stretch from Stackoverflow. |
+| Source                                                                                                                    | Location   | Type                                   | Notes                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------- | ---------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [Youtube](https://www.youtube.com/watch?v=qVvcPoAj_-w)                                                                    | git        | git reset --hard <SHA>                 | I accidentally copied the wrong SHA so I followed this tutorial to undo the reset.                   |
+| [Stackoverflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-cards-the-same-height-in-card-columns) | Cards      | Height                                 | To make the cards on the game page the same height I used align-items-stretch from Stackoverflow.    |
+| [Youtube (Kevin Powell)](https://www.youtube.com/shorts/hk3RgcBx5Fc)                                                      | a-tag link | Scroll down to section from other page | I used this video to figure out how to scroll down the index.html from an a-tag on the welcome page. |
