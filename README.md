@@ -156,6 +156,12 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 - when creating the footer, I had some trouble with how the containers and rows worked together with bootstrap grid. I added a background color to each of the container and rows to sort them out. It was also difficult to add all the col's, gap's and apply margins and paddings but in the end I worked it out.
 
+- Had troubles with the caption text disappearing on small devices on the carousel. Turned out to be a couple of classes that needed to be changed. I erased the d-none and -md- so it just says d-block to keep the block but not the grid properties (see the marked part on the second image).
+
+![the caption disappears on small devices](./docs/screenshots/bugs/caption_disappear_sm.png)
+
+![The class that solved it](./docs/screenshots/bugs/caption_solved.png)
+
 ---
 
 ## Deployment
@@ -219,12 +225,13 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 ### Media
 
-| Source                                   | Location         | Type   | Notes                                                 |
-| ---------------------------------------- | ---------------- | ------ | ----------------------------------------------------- |
-| [Freepik](https://www.freepik.com/)      | images, portrait | images | This website was used to download images to the site. |
-| [Font awesome](https://fontawesome.com/) | Icons/Head icon  | Icons  | Used to insert icons.                                 |
-| [UnDraw](https://undraw.co/search)       | Logo             | Image  | Used UnDraw to find a logo.                           |
-| [Unsplash](https://unsplash.com/)        | hero background  | Image  | Used UnDraw to find a logo.                           |
+| Source                                   | Location                    | Type                   | Notes                                                                    |
+| ---------------------------------------- | --------------------------- | ---------------------- | ------------------------------------------------------------------------ |
+| [Freepik](https://www.freepik.com/)      | images, portrait            | images                 | This website was used to download images to the site.                    |
+| [Font awesome](https://fontawesome.com/) | Icons/Head icon             | Icons                  | Used to insert icons.                                                    |
+| [UnDraw](https://undraw.co/search)       | Logo                        | Image                  | Used UnDraw to find a logo.                                              |
+| [Unsplash](https://unsplash.com/)        | hero background             | Image                  | Used UnDraw to find a logo.                                              |
+| [ChatGPT](https://chatgpt.com/)          | game images and description | Images and description | To produce the images and the description for the games, I used ChatGPT. |
 
 ### Challenges
 

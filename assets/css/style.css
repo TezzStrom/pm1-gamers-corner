@@ -94,6 +94,19 @@ h2, h3 {
 
 /* Games styling */
 
+#games-title {
+    border-bottom: 2px solid var(--third-color);
+}
+
+.carousel-caption {
+    background-color: var(--primary-color);
+    border: 2px solid var(--third-color);
+}
+
+#games-section {
+    border-top: 2px solid var(--third-color);
+}
+
 .game-cards {
     border: 2px solid var(--third-color);
     background-color: var(--fifth-color);
@@ -132,4 +145,6 @@ footer {
     .card-body {
         min-height: 190.52px; 
     }
+
+
 }
