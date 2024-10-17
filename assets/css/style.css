@@ -92,6 +92,16 @@ h2, h3 {
     margin-bottom: 1.5rem;
 }
 
+/* Games styling */
+
+.game-cards {
+    border: 2px solid var(--third-color);
+    background-color: var(--fifth-color);
+}
+
+.modal-header, .modal-body {
+    color: var(--sixth-color);
+}
 
 /* Footer styles */
 footer {
