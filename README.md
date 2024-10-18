@@ -1,24 +1,58 @@
 # Gamer's Corner
 
-Mock-up images
+![Mockup](./docs/screenshots/am_i_responsive_mockups.png)
 
-[Link to project](https://)
+[Link to project](https://tezzstrom.github.io/pm1-gamers-corner/)
 
-Gamer's corner is a fictional website and were created for educational purposes. <mark>The website is a club for gamers that are interested in playing pc-games with others. The site consists of XX pages to meet the owner and user goals of which are described in the UX-section.</mark>
+Gamer's corner is a fictional website and were created for educational purposes. The website is a club for gamers that are interested in playing pc-games with others. The site consists of 4 pages (plus a 404 page) to meet the owner and user goals of which are described in the UX-section.
 
 ## Table of contents
 
 - [UX](#ux)
 
+  - [Project goals](#project-goals)
+
+  - [Site owner's goals](#site-owners-goals)
+
+  - [External user goals](#external-user-goals)
+
+  - [User stories](#user-stories)
+
+  - [Wireframes](#wireframes)
+
+  - [Design choices](#design-choices)
+
 - [Features](#features)
+
+  - [Key-features to meet the goals](#key-features-to-meet-the-goals)
 
 - [Technologies](#technologies)
 
+  - [Tools](#tools)
+
 - [Testing](#testing)
+
+  - [Validation](#validation)
+
+  - [Lighthouse](#lighthouse)
+
+  - [Manual-testing](#manual-testing)
+
+  - [Browser-testing](#browser-testing)
+
+  - [User-story testing](#user-story-testing)
+
+  - [Bugs](#bugs)
 
 - [Deployment](#deployment)
 
+- [Future improvements](#future-improvements)
+
 - [Credits](#credits)
+
+  - [Media](#media)
+
+  - [Challenges](#challenges)
 
 ## UX
 
