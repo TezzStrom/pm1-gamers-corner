@@ -159,15 +159,16 @@ footer {
 
 /* Welcome styling */
 #welcome-games {
-  background: url("../img/1_Dragonspire_chronicles.webp") no-repeat center
+  background: url("../img/1_Dragonspire_chronicles_640.jpg") no-repeat center
     center/cover;
-  height: 350px;
-  border: 2px solid var(--third-color);
-  border-radius: 5px;
 }
 
 #welcome-gamenights {
-  background: url("../img/game_night_picture.jpg") no-repeat center center/cover;
+  background: url("../img/game_night_picture_welcome.jpg") no-repeat center
+    center/cover;
+}
+
+.what-to-do-now-squares {
   height: 350px;
   border: 2px solid var(--third-color);
   border-radius: 5px;
