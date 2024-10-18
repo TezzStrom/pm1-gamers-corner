@@ -402,13 +402,13 @@ _Solution_
 
 ### Media
 
-| Source                                   | Location                    | Type                   | Notes                                                                    |
-| ---------------------------------------- | --------------------------- | ---------------------- | ------------------------------------------------------------------------ |
-| [Freepik](https://www.freepik.com/)      | images, portrait            | images                 | This website was used to download images to the site.                    |
-| [Font awesome](https://fontawesome.com/) | Icons/Head icon             | Icons                  | Used to insert icons.                                                    |
-| [UnDraw](https://undraw.co/search)       | Logo                        | Image                  | Used UnDraw to find a logo.                                              |
-| [Unsplash](https://unsplash.com/)        | hero background             | Image                  | Used UnDraw to find a logo.                                              |
-| [ChatGPT](https://chatgpt.com/)          | game images and description | Images and description | To produce the images and the description for the games, I used ChatGPT. |
+| Source                                   | Location                    | Type                   | Notes                                                                                                 |
+| ---------------------------------------- | --------------------------- | ---------------------- | ----------------------------------------------------------------------------------------------------- |
+| [Freepik](https://www.freepik.com/)      | images, portrait            | images                 | This website was used to download images to the site.                                                 |
+| [Font awesome](https://fontawesome.com/) | Icons/Head icon             | Icons                  | Used to insert icons.                                                                                 |
+| [UnDraw](https://undraw.co/search)       | Logo                        | Image                  | Used UnDraw to find a logo.                                                                           |
+| [Unsplash](https://unsplash.com/)        | hero background             | Image                  | Used UnDraw to find a logo.                                                                           |
+| [ChatGPT](https://chatgpt.com/)          | game images and description | Images and description | To produce the images and the description for the games, the high-five and the wizard I used ChatGPT. |
 
 ### Challenges
 
