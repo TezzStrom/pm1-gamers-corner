@@ -136,6 +136,10 @@ footer {
   border-bottom: 2px solid var(--secondary-color);
 }
 
+.footer-email {
+  color: var(--secondary-color);
+}
+
 #contant-img {
   max-height: 10px;
 }
