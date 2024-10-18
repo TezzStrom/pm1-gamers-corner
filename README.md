@@ -140,15 +140,21 @@ I also chose images that included some type of gaming and had similar colors as 
 
 The technologies used in this project was GitHub to host the project and Gitpod as an IDE. To ensure that the site is responsive and to manage the time effectively use the time, I decided to use Bootstrap framework.
 
+- This project included HTML and CSS language.
+
+- I decided to use the Code Institute template for the IDE since it has all the necessary extensions needed.
+
+- I also installed another extension that is called Prettier - formatter. I did get it to work on the README file but not the html files.
+
 ---
 
 ## Testing
 
 ### Validation
 
-To validate the code, I used W3C validation sevice.
+To validate the code, I used W3C validation sevice (see credits).
 
-**HTML**
+#### HTML
 
 **index.html errors and clearance**
 
@@ -182,7 +188,7 @@ To validate the code, I used W3C validation sevice.
 
 ![404-page cleared](./docs/screenshots/validation/404.html_cleared.png)
 
-**CSS**
+#### CSS
 
 ![The CSS cleared in validator](./docs/screenshots/validation/CSS_validation.png)
 
@@ -288,24 +294,25 @@ _Solved_
 
 ### Tools
 
-| Source                                                                             | Location                                 | Type                            | Notes                                                                                      |
-| ---------------------------------------------------------------------------------- | ---------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------ |
-| [Code Institute](https://codeinstitute.net/se/)                                    | Project plannig, syntax and git commands | -                               | How to build the entire website and how to use git.                                        |
-| [GitHub Docs](https://docs.github.com/en)                                          | Readme.md, commit messages               | Syntax                          | How to write markdown                                                                      |
-| [Balsamiq](https://balsamiq.com/)                                                  | GitHub                                   | Wireframes                      | Tool for creating wireframes which are linked in the README.md file                        |
-| The element of user experience by Jesse James Garrett (2nd edition)                | Planning/design                          | Book                            | Used the book to read more about the five planes                                           |
-| [Stackoverflow](https://stackoverflow.com/)                                        | README.md                                | Syntax                          | How to make bold text in markdown, found the right formatting later in GitHub Docs.        |
-| [Image color picker](https://imagecolorpicker.com/)                                | Colors                                   | Color picker                    | This tool was used to choose colors for the color palette.                                 |
-| [WEBAIM, web accessability in mind](https://webaim.org/resources/contrastchecker/) | Colors                                   | Contrast checker                | This tool was used to ensure that colors has a high enough contrast for visually impaired. |
-| [Figma](https://www.figma.com/)                                                    | Colors                                   | Color palette, contrast checker | This tool was used to create a color palette and a table of the contrast checker.          |
-| [Fontjoy](https://fontjoy.com/)                                                    | Fonts                                    | Font-generator                  | Used to produce fonts for the website.                                                     |
-| [Google fonts](https://fonts.google.com/)                                          | Fonts                                    | Embedded code                   | Used to get embedded code for the fonts.                                                   |
-| [Bootstrap](https://getbootstrap.com/)                                             | Elements/Syntax                          | -                               | For responsive design and elements, see comments in code.                                  |
-| [Tinify](https://tinypng.com/)                                                     | Images                                   | Compress images                 | This tool was used to compress images for optimization.                                    |
-| [GitHub](https://github.com/)                                                      | Project                                  | -                               | Used to host the project                                                                   |
-| [Bootstrap](https://getbootstrap.com/)                                             | All over the site                        | Syntax                          | This tool was used to build the site and to ensure responsivity across all devices.        |
-| [HTML validator](https://validator.w3.org/#validate_by_input)                      | Syntax validation                        | Syntax                          | This tool was used to check the HTML code for errors.                                      |
-| [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input)            | Syntax validation                        | Syntax                          | This tool was used to check the CSS code for errors.                                       |
+| Source                                                                                        | Location                                 | Type                            | Notes                                                                                        |
+| --------------------------------------------------------------------------------------------- | ---------------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
+| [Code Institute](https://codeinstitute.net/se/)                                               | Project plannig, syntax and git commands | -                               | How to build the entire website and how to use git.                                          |
+| [GitHub Docs](https://docs.github.com/en)                                                     | Readme.md, commit messages               | Syntax                          | How to write markdown                                                                        |
+| [Balsamiq](https://balsamiq.com/)                                                             | GitHub                                   | Wireframes                      | Tool for creating wireframes which are linked in the README.md file                          |
+| The element of user experience by Jesse James Garrett (2nd edition)                           | Planning/design                          | Book                            | Used the book to read more about the five planes                                             |
+| [Stackoverflow](https://stackoverflow.com/)                                                   | README.md                                | Syntax                          | How to make bold text in markdown, found the right formatting later in GitHub Docs.          |
+| [Image color picker](https://imagecolorpicker.com/)                                           | Colors                                   | Color picker                    | This tool was used to choose colors for the color palette.                                   |
+| [WEBAIM, web accessability in mind](https://webaim.org/resources/contrastchecker/)            | Colors                                   | Contrast checker                | This tool was used to ensure that colors has a high enough contrast for visually impaired.   |
+| [Figma](https://www.figma.com/)                                                               | Colors                                   | Color palette, contrast checker | This tool was used to create a color palette and a table of the contrast checker.            |
+| [Fontjoy](https://fontjoy.com/)                                                               | Fonts                                    | Font-generator                  | Used to produce fonts for the website.                                                       |
+| [Google fonts](https://fonts.google.com/)                                                     | Fonts                                    | Embedded code                   | Used to get embedded code for the fonts.                                                     |
+| [Bootstrap](https://getbootstrap.com/)                                                        | Elements/Syntax                          | -                               | For responsive design and elements, see comments in code.                                    |
+| [Tinify](https://tinypng.com/)                                                                | Images                                   | Compress images                 | This tool was used to compress images for optimization.                                      |
+| [GitHub](https://github.com/)                                                                 | Project                                  | -                               | Used to host the project                                                                     |
+| [Bootstrap](https://getbootstrap.com/)                                                        | All over the site                        | Syntax                          | This tool was used to build the site and to ensure responsivity across all devices.          |
+| [HTML validator](https://validator.w3.org/#validate_by_input)                                 | Syntax validation                        | Syntax                          | This tool was used to check the HTML code for errors.                                        |
+| [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input)                       | Syntax validation                        | Syntax                          | This tool was used to check the CSS code for errors.                                         |
+| [Prettier - Code formatter](https://open-vsx.org/vscode/item?itemName=esbenp.prettier-vscode) | README                                   | Markdown and markup formatter   | This tool was used to format the README file, I didn't get it to work within the html files. |
 
 ### Media
 
