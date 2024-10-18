@@ -184,13 +184,3 @@ footer {
   font-family: var(--secondary-font);
   font-size: x-large;
 }
-
-/* Media queries starts here */
-
-/* Medium devices (768px and up) */
-@media screen and (min-width: 768px) {
-  /* Makes the cards the same height */
-  .card-body {
-    min-height: 190.52px;
-  }
-}
