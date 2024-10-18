@@ -30,8 +30,6 @@ The goal of Gamer's Corner is to create an friendly online community where PC ga
 
 - Increase attendance at game nights events.
 
-- Involve attendees in deciding which games to play.
-
 - Easy administration.
 
 ### External user goals
@@ -60,7 +58,7 @@ The goal of Gamer's Corner is to create an friendly online community where PC ga
 
 - I want to sign-up for game nights through a form for the events that interest me.
 
-- I want to see high-quality pictures of the games.
+- I want to see high-quality pictures of the games and read descriptions.
 
 - I want to send a message to the site's owner so that I can ask questions about upcoming events or games.
 
@@ -126,21 +124,39 @@ The overall intended feeling of the website is supposed to be an inviting and co
 
 **Fonts**
 
-- The fonts for all h1 elements are Passion One, for other heading elements Roboto Mono, and for the body text Titillium Web. I chose these three because they complement each other and create a dynamic trio. The choices were also made with the idea that they could reflect elements of gaming.
+The fonts for all h1 elements are Passion One, for other heading elements Roboto Mono, and for the body text Titillium Web. I chose these three because they complement each other and create a dynamic trio. The choices were also made with the idea that they could reflect elements of gaming.
 
-- <mark>As back-up fonts I chose XX for h1 elements, XX for other heading elements and XX for body text. </mark>
+- As back-up fonts I chose Times new roman (serif) for h1 elements, Garamond (serif) for other heading elements and Arial (sans-serif) for body text. The decision was based on w3schools recommendations.
 
-**Backgrounds**
+**Images**
 
-**Styling**
+To optimize the site, I compressed all images with the tool Tinify (see credits.) I also resized some images that were way to big in resolution.
+
+I also chose images that included some type of gaming and had similar colors as the site to match.
 
 ---
 
 ## Technologies
 
+The technologies used in this project was GitHub to host the project and Gitpod as an IDE. To ensure that the site is responsive and to manage the time effectively use the time, I decided to use Bootstrap framework.
+
 ---
 
 ## Testing
+
+### Validation
+
+To validate the code, I used W3C validation sevice.
+
+**HTML**
+
+**CSS**
+
+![The CSS cleared in validator](./docs/screenshots/validation/CSS_validation.png)
+
+There were some warnings but that was related to the imported fonts and nothing I can control.
+
+![CSS warnings](./docs/screenshots/validation/Warnings_css.png)
 
 ### Lighthouse
 
@@ -242,6 +258,10 @@ _Solution_
 | [Google fonts](https://fonts.google.com/)                                          | Fonts                                    | Embedded code                   | Used to get embedded code for the fonts.                                                   |
 | [Bootstrap](https://getbootstrap.com/)                                             | Elements/Syntax                          | -                               | For responsive design and elements, see comments in code.                                  |
 | [Tinify](https://tinypng.com/)                                                     | Images                                   | Compress images                 | This tool was used to compress images for optimization.                                    |
+| [GitHub](https://github.com/)                                                      | Project                                  | -                               | Used to host the project                                                                   |
+| [Bootstrap](https://getbootstrap.com/)                                             | All over the site                        | Syntax                          | This tool was used to build the site and to ensure responsivity across all devices.        |
+| [HTML validator](https://validator.w3.org/#validate_by_input)                      | Syntax validation                        | Syntax                          | This tool was used to check the HTML code for errors.                                      |
+| [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input)            | Syntax validation                        | Syntax                          | This tool was used to check the CSS code for errors.                                       |
 
 ### Media
 

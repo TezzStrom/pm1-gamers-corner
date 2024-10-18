@@ -5,9 +5,9 @@
 /* CSS variables */
 :root {
     /* Fonts */
-    --primary-font: "Passion One", sans-serif;
-    --secondary-font: "Roboto Mono", monospace;
-    --body-font: "Titillium Web", sans-serif;
+    --primary-font: "Passion One", sans-serif,  "Times New Roman", serif;
+    --secondary-font: "Roboto Mono", monospace "Garamond", serif;
+    --body-font: "Titillium Web", sans-serif, "Arial", sans-serif;
 
     /* Colors */
     --primary-color: #210F4A; /*Dark purple*/
@@ -89,11 +89,14 @@ h2, h3 {
     border-radius: 5px;
 }
 
-
 /* Card styling */
 
 .card {
     margin-bottom: 1.5rem;
+}
+
+.cards-game-nights {
+    border: 2px solid var(--third-color);
 }
 
 /* Games styling */
