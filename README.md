@@ -80,8 +80,6 @@ The goal of Gamer's Corner is to create an friendly online community where PC ga
 
 - I want to increase attendence to game nights.
 
-- I want to send invitations to the attendees via email for easy administration.
-
 #### As a user
 
 - I want easy navigation, a responsive design across devices and a user-friendly interface to avoid frustration when trying to find information.
@@ -110,7 +108,7 @@ The goal of Gamer's Corner is to create an friendly online community where PC ga
 
 - There is a separate page (_Games_) where users can vote for the top three games of the upcoming week, as well as a gallery with high-quality pictures and informative text of all the games that they can vote for.
 
-- There is a third page (_Sign-up_) to access a sign-up form. The sign-up form will have a field where the users must enter their email for easier administration by the site owner.
+- There is a third page (_Sign-up_) to access a sign-up form. Here, users can sign up to game nights.
 
 - The contact information is placed in the footer for inquiries.
 
@@ -182,24 +180,25 @@ The technologies used in this project was GitHub to host the project and Gitpod 
 
 ### Tools
 
-| Source                                                                                        | Location                   | Type                            | Notes                                                                                        |
-| --------------------------------------------------------------------------------------------- | -------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| [GitHub Docs](https://docs.github.com/en)                                                     | Readme.md, commit messages | Syntax                          | How to write markdown                                                                        |
-| [Balsamiq](https://balsamiq.com/)                                                             | GitHub                     | Wireframes                      | Tool for creating wireframes which are linked in the README.md file                          |
-| The element of user experience by Jesse James Garrett (2nd edition)                           | Planning/design            | Book                            | Used the book to read more about the five planes                                             |
-| [Stackoverflow](https://stackoverflow.com/)                                                   | README.md                  | Syntax                          | How to make bold text in markdown, found the right formatting later in GitHub Docs.          |
-| [Image color picker](https://imagecolorpicker.com/)                                           | Colors                     | Color picker                    | This tool was used to choose colors for the color palette.                                   |
-| [WEBAIM, web accessability in mind](https://webaim.org/resources/contrastchecker/)            | Colors                     | Contrast checker                | This tool was used to ensure that colors has a high enough contrast for visually impaired.   |
-| [Figma](https://www.figma.com/)                                                               | Colors                     | Color palette, contrast checker | This tool was used to create a color palette and a table of the contrast checker.            |
-| [Fontjoy](https://fontjoy.com/)                                                               | Fonts                      | Font-generator                  | Used to produce fonts for the website.                                                       |
-| [Google fonts](https://fonts.google.com/)                                                     | Fonts                      | Embedded code                   | Used to get embedded code for the fonts.                                                     |
-| [Bootstrap](https://getbootstrap.com/)                                                        | Elements/Syntax            | -                               | For responsive design and elements, see comments in code.                                    |
-| [Tinify](https://tinypng.com/)                                                                | Images                     | Compress images                 | This tool was used to compress images for optimization.                                      |
-| [GitHub](https://github.com/)                                                                 | Project                    | -                               | Used to host the project                                                                     |
-| [Bootstrap](https://getbootstrap.com/)                                                        | All over the site          | Syntax                          | This tool was used to build the site and to ensure responsivity across all devices.          |
-| [HTML validator](https://validator.w3.org/#validate_by_input)                                 | Syntax validation          | Syntax                          | This tool was used to check the HTML code for errors.                                        |
-| [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input)                       | Syntax validation          | Syntax                          | This tool was used to check the CSS code for errors.                                         |
-| [Prettier - Code formatter](https://open-vsx.org/vscode/item?itemName=esbenp.prettier-vscode) | README                     | Markdown and markup formatter   | This tool was used to format the README file, I didn't get it to work within the html files. |
+| Source                                                                                        | Location                   | Type                            | Notes                                                                                                   |
+| --------------------------------------------------------------------------------------------- | -------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [GitHub Docs](https://docs.github.com/en)                                                     | Readme.md, commit messages | Syntax                          | How to write markdown                                                                                   |
+| [Balsamiq](https://balsamiq.com/)                                                             | GitHub                     | Wireframes                      | Tool for creating wireframes which are linked in the README.md file                                     |
+| The element of user experience by Jesse James Garrett (2nd edition)                           | Planning/design            | Book                            | Used the book to read more about the five planes                                                        |
+| [Stackoverflow](https://stackoverflow.com/)                                                   | README.md                  | Syntax                          | How to make bold text in markdown, found the right formatting later in GitHub Docs.                     |
+| [Image color picker](https://imagecolorpicker.com/)                                           | Colors                     | Color picker                    | This tool was used to choose colors for the color palette.                                              |
+| [WEBAIM, web accessability in mind](https://webaim.org/resources/contrastchecker/)            | Colors                     | Contrast checker                | This tool was used to ensure that colors has a high enough contrast for visually impaired.              |
+| [Figma](https://www.figma.com/)                                                               | Colors                     | Color palette, contrast checker | This tool was used to create a color palette and a table of the contrast checker.                       |
+| [Fontjoy](https://fontjoy.com/)                                                               | Fonts                      | Font-generator                  | Used to produce fonts for the website.                                                                  |
+| [Google fonts](https://fonts.google.com/)                                                     | Fonts                      | Embedded code                   | Used to get embedded code for the fonts.                                                                |
+| [Bootstrap](https://getbootstrap.com/)                                                        | Elements/Syntax            | -                               | For responsive design and elements, see comments in code.                                               |
+| [Tinify](https://tinypng.com/)                                                                | Images                     | Compress images                 | This tool was used to compress images for optimization.                                                 |
+| [GitHub](https://github.com/)                                                                 | Project                    | -                               | Used to host the project                                                                                |
+| [Bootstrap](https://getbootstrap.com/)                                                        | All over the site          | Syntax                          | This tool was used to build the site and to ensure responsivity across all devices.                     |
+| [HTML validator](https://validator.w3.org/#validate_by_input)                                 | Syntax validation          | Syntax                          | This tool was used to check the HTML code for errors.                                                   |
+| [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input)                       | Syntax validation          | Syntax                          | This tool was used to check the CSS code for errors.                                                    |
+| [Prettier - Code formatter](https://open-vsx.org/vscode/item?itemName=esbenp.prettier-vscode) | README                     | Markdown and markup formatter   | This tool was used to format the README file, I didn't get it to work within the html files.            |
+| [w3schools](https://www.w3schools.com/)                                                       | Syntax and recommendations | -                               | This tool was used to find syntax and follow the recommendations about back-up safe fonts for websites. |
 
 ---
 
@@ -253,22 +252,33 @@ There were some warnings but that was related to the imported fonts and nothing 
 
 ### Lighthouse
 
-![Not enough place around buttons](./docs/testing/img/testing_buttons.png)
+![Not enough place around buttons](./docs/testing/testing_buttons.png)
 
 - While lighthouse testing there wasn't enough spacing around the buttons so I decided to make it larger to increase the area.
 
-![No aria-label text for social links that are just texts](./docs/testing/img/testing_aria_label_social.png)
+![No aria-label text for social links that are just texts](./docs/testing/testing_aria_label_social.png)
 
 - I missed to add aria-labels to the social links since they don't have any other explanation other than the link text.
 
+![Lighthouse index.html](./docs/testing/lighthouse/lighthouse_index.html.png)
+
+![Lighthouse games.html](./docs/testing/lighthouse/lighthouse_games.html.png)
+
+![Lighthouse signup.html](./docs/testing/lighthouse/lighthouse_signup.html.png)
+
+![Lighthouse welcome.html](./docs/testing/lighthouse/lighthouse_welcome.html.png)
+
+![Lighthouse 404.html](./docs/testing/lighthouse/lighthouse_404.html.png)
+
 #### Manual-testing
 
-| Browser | Layout | Functionality |
-| ------- | ------ | ------------- |
-|         |        |               |
-|         |        |               |
-|         |        |               |
-|         |        |               |
+| Feature                          | Expect                                                                            | Action                                                                               | Result                                                                                     |
+| -------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| Carousel                         | Carousel should change images when clicking the arrows                            | Clicking the left or right arrow keys in the carousel on the games page              | Image is being changed                                                                     |
+| Signup form empty name           | Empty name input should display a warning                                         | Leave name input blank in the signup form on the signup page and click submit        | A warning of "Please fill out this field" is displayed                                     |
+| Signup form invalid email adress | Invalid email adress should display a warning                                     | Enter "invalid_email" in the email input field in the signup form on the signup page | A warning of "Please include a '@' in the email address. 'invalid_email' is missing an '@' |
+| Mail link in footer              | Clicking the email link in the footer should open the users preferred mail client | On any page, scroll to the footer and click the email link                           | The mail client is opened                                                                  |
+| Social links                     | Clicking the twitch.tv social link should open twitch.tv in a new tab             | On any page, scroll to the footer and click the twitch icon                          | twitch.tv is opened in a new tab                                                           |
 
 #### Browser-testing
 
@@ -278,43 +288,21 @@ There were some warnings but that was related to the imported fonts and nothing 
 
 | Browser | Layout               | Functionality |
 | ------- | -------------------- | ------------- |
-| Chrome  |                      |               |
-| Firefox |                      |               |
-| Edge    |                      |               |
-| Safari  | No access to browser |               |
+| Chrome  | ✔️                   | ✔️            |
+| Firefox | ✔️                   | ✔️            |
+| Edge    | ✔️                   | ✔️            |
+| Safari  | No access to browser | -             |
 
 #### User-story testing
 
-| Browser | Layout | Functionality |
-| ------- | ------ | ------------- |
-|         |        |               |
-|         |        |               |
-|         |        |               |
-|         |        |               |
-
-#### As a site owner
-
-- I want to increase attendence to game nights.
-
-- I want to send invitations to the attendees via email for easy administration.
-
-#### As a user
-
-- I want easy navigation, a responsive design across devices and a user-friendly interface to avoid frustration when trying to find information.
-
-- I want to find information about upcoming game nights to know whether I can attend.
-
-- I want to see information about what games will be played at each event to decide if I want to attend.
-
-- I want to sign-up for game nights through a form for the events that interest me.
-
-- I want to see high-quality pictures of the games and read descriptions.
-
-- I want to send a message to the site's owner so that I can ask questions about upcoming events or games.
-
-| Source                              | Location         | Type   | Notes                                                 |
-| ----------------------------------- | ---------------- | ------ | ----------------------------------------------------- |
-| [Freepik](https://www.freepik.com/) | images, portrait | images | This website was used to download images to the site. |
+| Expectation                                                                                                                                               | Result                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| As a site owner, I want to increase attendence to game nights.                                                                                            | As a site owner, I can increase attendence through the sign-up form.                                                                                                               |
+| As a user, I want easy navigation, a responsive design across devices and a user-friendly interface to avoid frustration when trying to find information. | As a user, I can easily navigate the site through the global navigation bar at the top of the site and I can access the website on all my devices thanks to the responsive design. |
+| As a user, I want to find information about upcoming game nights to know whether I can attend.                                                            | As a user, I can find the information about game nights on the home page.                                                                                                          |
+| As a user, I want to sign-up for game nights through a form for the events that interest me.                                                              | As a user, I can select what game I want to play in the sign-up form.                                                                                                              |
+| As a user, I want to see high-quality pictures of the games and read descriptions.                                                                        | As a user, I can see high-quality images and read descriptions of the games on the games page.                                                                                     |
+| As a user, I want to send a message to the site's owner so that I can ask questions about upcoming events or games.                                       | As a user, I can send my questions to the site owner using the email link in the footer.                                                                                           |
 
 ### Bugs
 
