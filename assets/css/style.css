@@ -1,195 +1,195 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 
 /* CSS variables */
 :root {
-    /* Fonts */
-    --primary-font: "Passion One", sans-serif,  "Times New Roman", serif;
-    --secondary-font: "Roboto Mono", monospace "Garamond", serif;
-    --body-font: "Titillium Web", sans-serif, "Arial", sans-serif;
+  /* Fonts */
+  --primary-font: "Passion One", sans-serif, "Times New Roman", serif;
+  --secondary-font: "Roboto Mono", monospace "Garamond", serif;
+  --body-font: "Titillium Web", sans-serif, "Arial", sans-serif;
 
-    /* Colors */
-    --primary-color: #210F4A; /*Dark purple*/
-    --secondary-color: #5ACAF7; /*Blue*/
-    --third-color: #D68AD5; /*Pink*/
-    --fourth-color: #3E117E; /*Purple*/
-    --fifth-color: #FFFFFF; /*White*/
-    --sixth-color: #000000; /*Black*/
+  /* Colors */
+  --primary-color: #210f4a; /*Dark purple*/
+  --secondary-color: #5acaf7; /*Blue*/
+  --third-color: #d68ad5; /*Pink*/
+  --fourth-color: #3e117e; /*Purple*/
+  --fifth-color: #ffffff; /*White*/
+  --sixth-color: #000000; /*Black*/
 }
-
 
 /* Global styles */
 html {
-    scroll-behavior: smooth;
-    scroll-padding: 107px; /* To scroll down the page from welcome button link, see credits Kevin powell */
+  scroll-behavior: smooth;
+  scroll-padding: 107px; /* To scroll down the page from welcome button link, see credits Kevin powell */
 }
 
 body {
-    font-family: var(--body-font);
-    color:#FFFFFF;
-    background-color: var(--primary-color);
+  font-family: var(--body-font);
+  color: #ffffff;
+  background-color: var(--primary-color);
 }
 
 h1 {
-    font-family: var(--primary-font);
-    color: var(--fifth-color);
-    font-size: 60px;
+  font-family: var(--primary-font);
+  color: var(--fifth-color);
+  font-size: 60px;
 }
 
-h2, h3 {
-    font-family: var(--secondary-font);
-    color: var(--fifth-color);
+h2,
+h3 {
+  font-family: var(--secondary-font);
+  color: var(--fifth-color);
 }
 
 #h3-footer {
-    color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 
 .section {
-    padding-top: 150px; /*prevents the navbar to overlap the main content*/
+  padding-top: 150px; /*prevents the navbar to overlap the main content*/
 }
 
+.list-style {
+  list-style: none;
+}
 
 /* Buttons */
 .button-full {
-    background-color: var(--fourth-color);
-    Border: 2px solid var(--secondary-color);
-    color: var(--secondary-color)
+  background-color: var(--fourth-color);
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .button-full:hover {
-    background-color: var(--secondary-color);
-    border: 2px solid var(--fifth-color);
-    color: var(--fifth-color);
+  background-color: var(--secondary-color);
+  border: 2px solid var(--fifth-color);
+  color: var(--fifth-color);
 }
 
 /* Navbar style */
 
 #navbar {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 #navbar .logotype {
-    height: 65px;
+  height: 65px;
 }
-
 
 /* Header styling */
 #header {
-    background: url("../img/game_room.jpg") no-repeat center center/cover;
-    height: 600px;
-    width: 100%;
+  background: url("../img/game_room.jpg") no-repeat center center/cover;
+  height: 600px;
+  width: 100%;
 }
 
 #hero-text {
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 20px 30px 20px 30px;
-    border: 2px solid var(--third-color);
-    border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px 30px 20px 30px;
+  border: 2px solid var(--third-color);
+  border-radius: 5px;
 }
 
 /* Card styling */
 
 .card {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .cards-game-nights {
-    border: 2px solid var(--third-color);
+  border: 2px solid var(--third-color);
 }
 
 /* Games styling */
 
 #games-title {
-    border-bottom: 2px solid var(--third-color);
+  border-bottom: 2px solid var(--third-color);
 }
 
 .carousel-caption {
-    background-color: var(--primary-color);
-    border: 2px solid var(--third-color);
+  background-color: var(--primary-color);
+  border: 2px solid var(--third-color);
 }
 
 #games-section {
-    border-top: 2px solid var(--third-color);
+  border-top: 2px solid var(--third-color);
 }
 
 .game-cards {
-    border: 2px solid var(--third-color);
-    background-color: var(--fifth-color);
+  border: 2px solid var(--third-color);
+  background-color: var(--fifth-color);
 }
 
 .game-cards .card-title {
-    min-height: 70px; /* To make all game-card headings the same height */
-    color: var(--fourth-color);
+  min-height: 70px; /* To make all game-card headings the same height */
+  color: var(--fourth-color);
 }
 
 /* Signup styling */
 
 #hero-signup {
-    background: url("../img/gaming.jpg") no-repeat top center/cover;
-    height: 700px;
-    width: 100%;
+  background: url("../img/gaming.jpg") no-repeat top center/cover;
+  height: 700px;
+  width: 100%;
 }
 
 /* Footer styles */
 footer {
-    border-top: 2px solid var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
+  border-top: 2px solid var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
 }
 
 #contant-img {
-    max-height: 10px;
+  max-height: 10px;
 }
 
 #copyright {
-    background-color: #5ACAF7;
-    color: #210F4A;
+  background-color: #5acaf7;
+  color: #210f4a;
 }
 
 #contact_img {
-    max-height: 150px;
-    width: auto;
+  max-height: 150px;
+  width: auto;
 }
 
 .social-links {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* Welcome styling */
 #welcome-games {
-    background: url("../img/1_Dragonspire_chronicles.webp") no-repeat center center/cover;
-    height: 350px;
-    border: 2px solid var(--third-color);
-    border-radius: 5px;
+  background: url("../img/1_Dragonspire_chronicles.webp") no-repeat center
+    center/cover;
+  height: 350px;
+  border: 2px solid var(--third-color);
+  border-radius: 5px;
 }
 
 #welcome-gamenights {
-    background: url("../img/game_night_picture.jpg") no-repeat center center/cover;
-    height: 350px;
-    border: 2px solid var(--third-color);
-    border-radius: 5px;
+  background: url("../img/game_night_picture.jpg") no-repeat center center/cover;
+  height: 350px;
+  border: 2px solid var(--third-color);
+  border-radius: 5px;
 }
 
 /* 404 page styling */
 #error {
-    font-family: var(--primary-font);
-    font-size: 200px;
+  font-family: var(--primary-font);
+  font-size: 200px;
 }
 
 #error-text {
-    font-family: var(--secondary-font);
-    font-size: x-large;
+  font-family: var(--secondary-font);
+  font-size: x-large;
 }
 
 /* Media queries starts here */
 
 /* Medium devices (768px and up) */
-@media screen and (min-width:768px) {
-    /* Makes the cards the same height */
-    .card-body {
-        min-height: 190.52px; 
-    }
-
-
+@media screen and (min-width: 768px) {
+  /* Makes the cards the same height */
+  .card-body {
+    min-height: 190.52px;
+  }
 }
