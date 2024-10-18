@@ -150,6 +150,28 @@ To validate the code, I used W3C validation sevice.
 
 **HTML**
 
+**index.html errors and clearance**
+
+![Index.html errors](./docs/screenshots/validation/index.html_errors.png)
+
+![Index.html cleared](./docs/screenshots/validation/index.html_cleared.png)
+
+**games.html errors and clearance**
+
+![Games errors](./docs/screenshots/validation/games_errors.png)
+
+![Games cleared](./docs/screenshots/validation/games_cleared.png)
+
+**signup.html errors and clearance**
+
+![Signup errors](./docs/screenshots/validation/signup.html_errors.png)
+
+![Signup cleared](./docs/screenshots/validation/signup.html_cleared.png)
+
+**welcome.html errors and clearance**
+
+**404.html errors and clearance**
+
 **CSS**
 
 ![The CSS cleared in validator](./docs/screenshots/validation/CSS_validation.png)
@@ -198,7 +220,7 @@ _Solution_
 
 ![The result of the changed syntax](./docs/screenshots/bugs/card_gap_problem_solved_2.png)
 
-\*_Sign-up-button_
+**Sign-up-button**
 
 - While I validated and changed the html code, the sign-up button changed. It turns out that the nav-link was the issue so I erased that.
 
