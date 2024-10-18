@@ -324,6 +324,14 @@ _Solved_
 
 ![The issue solved](./docs/screenshots/bugs/sign-up-button_solved.png)
 
+**Prettier added slashes to the end of some tags**
+
+- While I validated and changed the html code, I saw some new warnings about slashes at the end of my meta-, link-, and img-tags, etc. To disable this I found a guide on stackoverflow about using another formatter.
+
+_Solution_
+
+![The issue](./docs/screenshots/bugs/comment_about_switching_from_prettier_formatter.png)
+
 ---
 
 ## Deployment
