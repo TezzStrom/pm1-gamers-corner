@@ -168,9 +168,19 @@ To validate the code, I used W3C validation sevice.
 
 ![Signup cleared](./docs/screenshots/validation/signup.html_cleared.png)
 
-**welcome.html errors and clearance**
+**welcome.html warnings**
+
+- The social links are added for accessibility because the links are only images and not self-explanatory.
+
+![A warning of missuse of arie-label](./docs/screenshots/validation/welcome.html_warnings.png)
+
+- There were no other warnings or errors.
+
+![Welcome cleared](./docs/screenshots/validation/welcome_cleared.png)
 
 **404.html errors and clearance**
+
+![404-page cleared](./docs/screenshots/validation/404.html_cleared.png)
 
 **CSS**
 
