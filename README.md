@@ -68,17 +68,17 @@ The goal of Gamer's Corner is to create an friendly online community where PC ga
 
 - To ensure a responsive design and user-friendly interface, I will apply a mobile-first approach.
 
-- There will be on or more clear call-to-action button on the first and second page for easy accesability which will lead to the sign-up form.
+- There is one or more clear call-to-action button on the first and second page for easy accesability which will lead to the sign-up form.
 
-- There will be a section on the home page contatining information about the events.
+- There are a section on the home page contatining information about the events.
 
-- There will be an easy accesible navigation bar in the browser and a hamburgermenu on phone and tablet in the upper right corner for easy access and recognition for the user on all pages.
+- There is an easy accesible navigation bar in the browser and a hamburgermenu on phone and tablet in the upper right corner for easy access and recognition for the user on all pages.
 
-- There will be a separate page (_Games_) where users can vote for the top three games of the upcoming week, as well as a gallery with high-quality pictures and informative text of all the games that they can vote for.
+- There is a separate page (_Games_) where users can vote for the top three games of the upcoming week, as well as a gallery with high-quality pictures and informative text of all the games that they can vote for.
 
-- There will be a third page (_Sign-up_) to access a sign-up form. The sign-up form will have a field where the users must enter their email for easier administration by the site owner.
+- There is a third page (_Sign-up_) to access a sign-up form. The sign-up form will have a field where the users must enter their email for easier administration by the site owner.
 
-- The contact information will be placed in the footer for inquiries.
+- The contact information is placed in the footer for inquiries.
 
 ### Wireframes
 
@@ -144,7 +144,28 @@ The technologies used in this project was GitHub to host the project and Gitpod 
 
 - I decided to use the Code Institute template for the IDE since it has all the necessary extensions needed.
 
-- I also installed another extension that is called Prettier - formatter. I did get it to work on the README file but not the html files.
+- I also installed another extension that is called Prettier - formatter that formats the pages.
+
+### Tools
+
+| Source                                                                                        | Location                   | Type                            | Notes                                                                                        |
+| --------------------------------------------------------------------------------------------- | -------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
+| [GitHub Docs](https://docs.github.com/en)                                                     | Readme.md, commit messages | Syntax                          | How to write markdown                                                                        |
+| [Balsamiq](https://balsamiq.com/)                                                             | GitHub                     | Wireframes                      | Tool for creating wireframes which are linked in the README.md file                          |
+| The element of user experience by Jesse James Garrett (2nd edition)                           | Planning/design            | Book                            | Used the book to read more about the five planes                                             |
+| [Stackoverflow](https://stackoverflow.com/)                                                   | README.md                  | Syntax                          | How to make bold text in markdown, found the right formatting later in GitHub Docs.          |
+| [Image color picker](https://imagecolorpicker.com/)                                           | Colors                     | Color picker                    | This tool was used to choose colors for the color palette.                                   |
+| [WEBAIM, web accessability in mind](https://webaim.org/resources/contrastchecker/)            | Colors                     | Contrast checker                | This tool was used to ensure that colors has a high enough contrast for visually impaired.   |
+| [Figma](https://www.figma.com/)                                                               | Colors                     | Color palette, contrast checker | This tool was used to create a color palette and a table of the contrast checker.            |
+| [Fontjoy](https://fontjoy.com/)                                                               | Fonts                      | Font-generator                  | Used to produce fonts for the website.                                                       |
+| [Google fonts](https://fonts.google.com/)                                                     | Fonts                      | Embedded code                   | Used to get embedded code for the fonts.                                                     |
+| [Bootstrap](https://getbootstrap.com/)                                                        | Elements/Syntax            | -                               | For responsive design and elements, see comments in code.                                    |
+| [Tinify](https://tinypng.com/)                                                                | Images                     | Compress images                 | This tool was used to compress images for optimization.                                      |
+| [GitHub](https://github.com/)                                                                 | Project                    | -                               | Used to host the project                                                                     |
+| [Bootstrap](https://getbootstrap.com/)                                                        | All over the site          | Syntax                          | This tool was used to build the site and to ensure responsivity across all devices.          |
+| [HTML validator](https://validator.w3.org/#validate_by_input)                                 | Syntax validation          | Syntax                          | This tool was used to check the HTML code for errors.                                        |
+| [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input)                       | Syntax validation          | Syntax                          | This tool was used to check the CSS code for errors.                                         |
+| [Prettier - Code formatter](https://open-vsx.org/vscode/item?itemName=esbenp.prettier-vscode) | README                     | Markdown and markup formatter   | This tool was used to format the README file, I didn't get it to work within the html files. |
 
 ---
 
@@ -206,6 +227,61 @@ There were some warnings but that was related to the imported fonts and nothing 
 
 - I missed to add aria-labels to the social links since they don't have any other explanation other than the link text.
 
+#### Manual-testing
+
+| Browser | Layout | Functionality |
+| ------- | ------ | ------------- |
+|         |        |               |
+|         |        |               |
+|         |        |               |
+|         |        |               |
+
+#### Browser-testing
+
+**Layout:** Make sure the layout looks the same across browsers
+
+**Functionality:** Controll all links, navigation and forms works.
+
+| Browser | Layout               | Functionality |
+| ------- | -------------------- | ------------- |
+| Chrome  |                      |               |
+| Firefox |                      |               |
+| Edge    |                      |               |
+| Safari  | No access to browser |               |
+
+#### User-story testing
+
+| Browser | Layout | Functionality |
+| ------- | ------ | ------------- |
+|         |        |               |
+|         |        |               |
+|         |        |               |
+|         |        |               |
+
+#### As a site owner
+
+- I want to increase attendence to game nights.
+
+- I want to send invitations to the attendees via email for easy administration.
+
+#### As a user
+
+- I want easy navigation, a responsive design across devices and a user-friendly interface to avoid frustration when trying to find information.
+
+- I want to find information about upcoming game nights to know whether I can attend.
+
+- I want to see information about what games will be played at each event to decide if I want to attend.
+
+- I want to sign-up for game nights through a form for the events that interest me.
+
+- I want to see high-quality pictures of the games and read descriptions.
+
+- I want to send a message to the site's owner so that I can ask questions about upcoming events or games.
+
+| Source                              | Location         | Type   | Notes                                                 |
+| ----------------------------------- | ---------------- | ------ | ----------------------------------------------------- |
+| [Freepik](https://www.freepik.com/) | images, portrait | images | This website was used to download images to the site. |
+
 ### Bugs
 
 **Containers and rows in footer**
@@ -254,33 +330,33 @@ _Solved_
 
 - when I were done with the index.html I added all the remaining changes, committed and pushed to GitHub. I decided to deploy early since it's recommended from the tutorials provided by the Code Institute. It's easier to compare both the local and the live to discover bugs or other problems early.
 
-1. First step was to add, commit and push everything to GitHub.
+1. Add, commit and push everything to GitHub.
 
 ![Step one: Add, commit and push to GitHub](./docs/screenshots/deployment/add_commit_push.png)
 
-2. Second step was to go to the repositories site and press on settings.
+2. Go to the repositories site and press on settings.
 
 ![Step two: Go to repository site and press on settings.](./docs/screenshots/deployment/1_settings.png)
 
-3. Third step was to press the pages in the left panel.
+3. Press the pages in the left panel.
 
 ![Step three: Push the pages section](./docs/screenshots/deployment/2_pages.png)
 
-4. Fourth step was to chose source (deploy from branch) and then choose main and save.
+4. Choose source (deploy from branch) and then choose main and save.
 
 ![Step four: Choose source, choose main and save.](./docs/screenshots/deployment/3_main_save.png)
 
-5. Step five was to go in to the actions tab and wait for it to finish processing.
+5. Go in to the actions tab and wait for it to finish processing.
 
 ![Step five: Wait for the processing](./docs/screenshots/deployment/4_actions.png)
 
-6. Step six was to go back to the <>code page, find the deployed site and press the link.
+6. Go back to the <>code page, find the deployed site and press the link.
 
 ![Step six: Find the deployed site and press link](./docs/screenshots/deployment/5_deployed.png)
 
-7. Step seven was to click the link to ensure that the link works and that everything looks good (which it did).
+7. Click the link to ensure that the link works and that everything looks good (which it did).
 
-![Step seven: Clikc the link and check that everything works](./docs/screenshots/deployment/6_deployed_link.png)
+![Step seven: Click the link and check that everything works](./docs/screenshots/deployment/6_deployed_link.png)
 
 ---
 
@@ -288,31 +364,11 @@ _Solved_
 
 - After talking to my mentor, we decided that I should leave out the vote function (see wireframes games page) since I have yet to learn the functionality behind that type of data. I would like to implement it later though because of the improved UX, the user is involved in decision making about what games to play.
 
+- A future improvement that could improve UX and accesibility to the website is to add a background behind the buttons in the carousel since they are not clearly visible at the moment.
+
 ---
 
 ## Credits
-
-### Tools
-
-| Source                                                                                        | Location                                 | Type                            | Notes                                                                                        |
-| --------------------------------------------------------------------------------------------- | ---------------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-| [Code Institute](https://codeinstitute.net/se/)                                               | Project plannig, syntax and git commands | -                               | How to build the entire website and how to use git.                                          |
-| [GitHub Docs](https://docs.github.com/en)                                                     | Readme.md, commit messages               | Syntax                          | How to write markdown                                                                        |
-| [Balsamiq](https://balsamiq.com/)                                                             | GitHub                                   | Wireframes                      | Tool for creating wireframes which are linked in the README.md file                          |
-| The element of user experience by Jesse James Garrett (2nd edition)                           | Planning/design                          | Book                            | Used the book to read more about the five planes                                             |
-| [Stackoverflow](https://stackoverflow.com/)                                                   | README.md                                | Syntax                          | How to make bold text in markdown, found the right formatting later in GitHub Docs.          |
-| [Image color picker](https://imagecolorpicker.com/)                                           | Colors                                   | Color picker                    | This tool was used to choose colors for the color palette.                                   |
-| [WEBAIM, web accessability in mind](https://webaim.org/resources/contrastchecker/)            | Colors                                   | Contrast checker                | This tool was used to ensure that colors has a high enough contrast for visually impaired.   |
-| [Figma](https://www.figma.com/)                                                               | Colors                                   | Color palette, contrast checker | This tool was used to create a color palette and a table of the contrast checker.            |
-| [Fontjoy](https://fontjoy.com/)                                                               | Fonts                                    | Font-generator                  | Used to produce fonts for the website.                                                       |
-| [Google fonts](https://fonts.google.com/)                                                     | Fonts                                    | Embedded code                   | Used to get embedded code for the fonts.                                                     |
-| [Bootstrap](https://getbootstrap.com/)                                                        | Elements/Syntax                          | -                               | For responsive design and elements, see comments in code.                                    |
-| [Tinify](https://tinypng.com/)                                                                | Images                                   | Compress images                 | This tool was used to compress images for optimization.                                      |
-| [GitHub](https://github.com/)                                                                 | Project                                  | -                               | Used to host the project                                                                     |
-| [Bootstrap](https://getbootstrap.com/)                                                        | All over the site                        | Syntax                          | This tool was used to build the site and to ensure responsivity across all devices.          |
-| [HTML validator](https://validator.w3.org/#validate_by_input)                                 | Syntax validation                        | Syntax                          | This tool was used to check the HTML code for errors.                                        |
-| [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input)                       | Syntax validation                        | Syntax                          | This tool was used to check the CSS code for errors.                                         |
-| [Prettier - Code formatter](https://open-vsx.org/vscode/item?itemName=esbenp.prettier-vscode) | README                                   | Markdown and markup formatter   | This tool was used to format the README file, I didn't get it to work within the html files. |
 
 ### Media
 

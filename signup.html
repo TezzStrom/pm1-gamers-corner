@@ -39,114 +39,122 @@
 
   <!--min-vh-100 to stretch the full viewport and classes working with mt-auto to ensure that footer stays in the bottom-->
   <body class="d-flex flex-column min-vh-100">
-    <!--Navigation-->
-    <!--fixed-top class so that it stays in the top of the page when scrolling. Data-bs-theme="dark" for turning the text in the navbar white-->
-    <nav
-      id="navbar"
-      class="navbar navbar-expand-lg fixed-top pt-4"
-      data-bs-theme="dark"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="./index.html">
-          <img
-            src="./assets/img/logo.png"
-            alt="Gamer's corners logotype"
-            class="logotype"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!--ms-auto to move the links to the right side-->
-          <ul class="navbar-nav ms-auto d-flex align-items-center">
-            <li class="nav-item">
-              <!--active class to indicate the current site to the user-->
-              <a class="nav-link pe-5" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pe-5" href="./games.html">Games</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="btn button-full btn-lg active"
-                aria-current="page"
-                href="./signup.html"
-                role="button"
-                >Sign-up</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
     <!--Header starts here-->
-    <header id="hero-signup" class="container-fluid section">
-      <div class="container p-5" id="hero-text">
-        <div class="row">
-          <div class="col-12 col-lg-6">
-            <h1>Sign-up form</h1>
-            <p>
-              We are so happy that you want to join us gaming! To sign up, just
-              fill out your contact details and we will send you an email with
-              the invite link.<br />Happy gaming!
-            </p>
-          </div>
-
-          <!--Form starts here-->
-          <form
-            class="row col-12 col-lg-6"
-            action="./welcome.html"
-            method="GET"
+    <header>
+      <!--Navigation-->
+      <!--fixed-top class so that it stays in the top of the page when scrolling. Data-bs-theme="dark" for turning the text in the navbar white-->
+      <nav
+        id="navbar"
+        class="navbar navbar-expand-lg fixed-top pt-4"
+        data-bs-theme="dark"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="./assets/img/logo.png"
+              alt="Gamer's corners logotype"
+              class="logotype"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <div class="mb-3 col-6">
-              <label for="first-name" class="form-label">First name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="first-name"
-                name="first-name"
-                required
-              />
-            </div>
-            <div class="mb-3 col-6">
-              <label for="last-name" class="form-label">Last name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="last-name"
-                name="last-name"
-                required
-              />
-            </div>
-            <div class="mb-3 col-12">
-              <label for="email" class="form-label">Email address</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                name="email"
-                required
-              />
-            </div>
-            <div class="col-12 d-flex justify-content-end">
-              <button type="submit" class="btn button-full mt-4" value="Submit">
-                Submit
-              </button>
-            </div>
-          </form>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--ms-auto to move the links to the right side-->
+            <ul class="navbar-nav ms-auto d-flex align-items-center">
+              <li class="nav-item">
+                <a class="nav-link pe-5" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-5" href="./games.html">Games</a>
+              </li>
+              <li class="nav-item">
+                <!--active class to indicate the current site to the user-->
+                <a
+                  class="btn button-full btn-lg active"
+                  aria-current="page"
+                  href="./signup.html"
+                  role="button"
+                >
+                  Sign-up
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
     </header>
+
+    <main>
+      <section id="hero-signup" class="container-fluid section">
+        <div class="container p-5" id="hero-text">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <h1>Sign-up form</h1>
+              <p>
+                We are so happy that you want to join us gaming! To sign up,
+                just fill out your contact details and we will send you an email
+                with the invite link. Happy gaming!
+              </p>
+            </div>
+            <!--Form starts here-->
+            <form
+              class="row col-12 col-lg-6"
+              action="./welcome.html"
+              method="GET"
+            >
+              <div class="mb-3 col-6">
+                <label for="first-name" class="form-label">First name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="first-name"
+                  name="first-name"
+                  required
+                />
+              </div>
+              <div class="mb-3 col-6">
+                <label for="last-name" class="form-label">Last name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="last-name"
+                  name="last-name"
+                  required
+                />
+              </div>
+              <div class="mb-3 col-12">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="col-12 d-flex justify-content-end">
+                <button
+                  type="submit"
+                  class="btn button-full mt-4"
+                  value="Submit"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!--Footer starts here-->
     <!--mt-auto to push the footer to the bottom-->
@@ -189,9 +197,9 @@
                 class="social-links"
                 aria-label="A link to twitch.tv that opens in a new tab"
               >
+                <!--fa-xl makes the icon larger, taken from font awesome-->
                 <i class="fa-brands fa-twitch fa-xl"></i>
               </a>
-              <!--fa-xl makes the icon larger, taken from font awesome-->
             </li>
             <li class="nav-item">
               <a
@@ -200,8 +208,9 @@
                 class="social-links"
                 aria-label="A link to instagram that opens in a new tab"
               >
-                <i class="fa-brands fa-instagram fa-xl"></i> </a
-              ><!--fa-xl makes the icon larger, taken from fontawesome-->
+                <!--fa-xl makes the icon larger, taken from fontawesome-->
+                <i class="fa-brands fa-instagram fa-xl"></i>
+              </a>
             </li>
             <li class="nav-item">
               <a
@@ -210,8 +219,9 @@
                 class="social-links"
                 aria-label="A link to instagram that opens in a new tab"
               >
-                <i class="fa-brands fa-youtube fa-xl"></i> </a
-              ><!--fa-xl makes the icon larger, taken from font awesome-->
+                <!--fa-xl makes the icon larger, taken from font awesome-->
+                <i class="fa-brands fa-youtube fa-xl"></i>
+              </a>
             </li>
           </ul>
         </div>

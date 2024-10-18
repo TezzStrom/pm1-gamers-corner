@@ -39,87 +39,92 @@
 
   <!--min-vh-100 to stretch the full viewport and classes working with mt-auto to ensure that footer stays in the bottom-->
   <body class="d-flex flex-column min-vh-100">
-    <!--Navigation-->
-    <!--fixed-top class so that it stays in the top of the page when scrolling. Data-bs-theme="dark" for turning the text in the navbar white-->
-    <nav
-      id="navbar"
-      class="navbar navbar-expand-lg fixed-top pt-4"
-      data-bs-theme="dark"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="./index.html">
-          <img
-            src="./assets/img/logo.png"
-            alt="Gamer's corners logotype"
-            class="logotype"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!--ms-auto to move the links to the right side-->
-          <ul class="navbar-nav ms-auto d-flex align-items-center">
-            <li class="nav-item">
-              <!--active class to indicate the current site to the user-->
-              <a class="nav-link pe-5" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pe-5" href="./games.html">Games</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="btn button-full btn-lg"
-                href="./signup.html"
-                role="button"
-                >Sign-up</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
     <!--Header starts here-->
-    <header class="container section">
-      <div class="row mb-3">
-        <div class="col-12 text-center">
-          <h1 id="error">404</h1>
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col-12 col-lg-6 mb-4">
-          <p id="error-text">
-            Oh no, looks lite you got a lite lost there friend.<br />But fear
-            not! the wizard will help you back! Just press the button below and
-            he'll help you back!
-          </p>
-          <div>
-            <a
-              class="btn button-full btn-lg mt-5"
-              href="./index.html"
-              role="button"
-              >Home</a
-            >
+    <header>
+      <!--Navigation-->
+      <!--fixed-top class so that it stays in the top of the page when scrolling. Data-bs-theme="dark" for turning the text in the navbar white-->
+      <nav
+        id="navbar"
+        class="navbar navbar-expand-lg fixed-top pt-4"
+        data-bs-theme="dark"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="./assets/img/logo.png"
+              alt="Gamer's corners logotype"
+              class="logotype"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--ms-auto to move the links to the right side-->
+            <ul class="navbar-nav ms-auto d-flex align-items-center">
+              <li class="nav-item">
+                <a class="nav-link pe-5" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-5" href="./games.html">Games</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="btn button-full btn-lg"
+                  href="./signup.html"
+                  role="button"
+                >
+                  Sign-up
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="col-12 col-lg-6">
-          <img
-            src="./assets/img/wizard.webp"
-            class="img-fluid"
-            alt="An image of a wizard that waves his wans with sparkles."
-          />
-        </div>
-      </div>
+      </nav>
     </header>
+
+    <main>
+      <section class="container section">
+        <div class="row mb-3">
+          <div class="col-12 text-center">
+            <h1 id="error">404</h1>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-12 col-lg-6 mb-4">
+            <p id="error-text">
+              Oh no, looks lite you got a lite lost there friend. But fear not!
+              the wizard will help you back! Just press the button below and
+              he'll help you back!
+            </p>
+            <div>
+              <a
+                class="btn button-full btn-lg mt-5"
+                href="./index.html"
+                role="button"
+              >
+                Home
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img
+              src="./assets/img/wizard.webp"
+              class="img-fluid"
+              alt="An image of a wizard that waves his wans with sparkles."
+            />
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!--Footer starts here-->
     <!--mt-auto to push the footer to the bottom-->
@@ -144,9 +149,9 @@
               <!--Syntax for mailto taken from w3schools-->
               <p>
                 Email:
-                <a href="mailto:emily@gamerscorner.com"
-                  >emily@gamerscorner.com</a
-                >
+                <a href="mailto:emily@gamerscorner.com">
+                  emily@gamerscorner.com
+                </a>
               </p>
             </div>
           </div>
@@ -162,9 +167,9 @@
                 class="social-links"
                 aria-label="A link to twitch.tv that opens in a new tab"
               >
+                <!--fa-xl makes the icon larger, taken from font awesome-->
                 <i class="fa-brands fa-twitch fa-xl"></i>
               </a>
-              <!--fa-xl makes the icon larger, taken from font awesome-->
             </li>
             <li class="nav-item">
               <a
@@ -173,8 +178,9 @@
                 class="social-links"
                 aria-label="A link to instagram that opens in a new tab"
               >
-                <i class="fa-brands fa-instagram fa-xl"></i> </a
-              ><!--fa-xl makes the icon larger, taken from fontawesome-->
+                <!--fa-xl makes the icon larger, taken from fontawesome-->
+                <i class="fa-brands fa-instagram fa-xl"></i>
+              </a>
             </li>
             <li class="nav-item">
               <a
@@ -183,8 +189,9 @@
                 class="social-links"
                 aria-label="A link to instagram that opens in a new tab"
               >
-                <i class="fa-brands fa-youtube fa-xl"></i> </a
-              ><!--fa-xl makes the icon larger, taken from font awesome-->
+                <!--fa-xl makes the icon larger, taken from font awesome-->
+                <i class="fa-brands fa-youtube fa-xl"></i>
+              </a>
             </li>
           </ul>
         </div>

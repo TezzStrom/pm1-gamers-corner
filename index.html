@@ -39,89 +39,92 @@
 
   <!--min-vh-100 to stretch the full viewport and classes working with mt-auto to ensure that footer stays in the bottom-->
   <body class="d-flex flex-column min-vh-100">
-    <!--Navigation-->
-    <!--fixed-top class so that it stays in the top of the page when scrolling. Data-bs-theme="dark" for turning the text in the navbar white-->
-    <nav
-      id="navbar"
-      class="navbar navbar-expand-lg fixed-top pt-4"
-      data-bs-theme="dark"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="./index.html">
-          <img
-            src="./assets/img/logo.png"
-            alt="Gamer's corners logotype"
-            class="logotype"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!--ms-auto to move the links to the right side-->
-          <ul class="navbar-nav ms-auto d-flex align-items-center">
-            <li class="nav-item">
-              <!--active class to indicate the current site to the user-->
-              <a
-                class="nav-link pe-5 active"
-                aria-current="page"
-                href="./index.html"
-              >
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pe-5" href="./games.html">Games</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="btn button-full btn-lg"
-                href="./signup.html"
-                role="button"
-                type="button"
-                >Sign-up</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
     <!--Header starts here-->
-    <header class="container-fluid section" id="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-8 col-lg-6" id="hero-text">
-            <h1>Welcome to Gamer's Corner</h1>
-            <p>
-              Gamer's corner is an engaging online community where PC gamers can
-              connect over shared interests. We play games together three times
-              a week and once a week we chat or play depending on what the group
-              feels up to do. <br />
-              We would love for you to join us so be sure to click the sign-up
-              button below.
-            </p>
-            <a
-              class="btn button-full btn-lg mt-2"
-              href="./signup.html"
-              role="button"
-              >Sign-up</a
-            >
+    <header>
+      <!--Navigation-->
+      <!--fixed-top class so that it stays in the top of the page when scrolling. Data-bs-theme="dark" for turning the text in the navbar white-->
+      <nav
+        id="navbar"
+        class="navbar navbar-expand-lg fixed-top pt-4"
+        data-bs-theme="dark"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="./assets/img/logo.png"
+              alt="Gamer's corners logotype"
+              class="logotype"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--ms-auto to move the links to the right side-->
+            <ul class="navbar-nav ms-auto d-flex align-items-center">
+              <li class="nav-item">
+                <!--active class to indicate the current site to the user-->
+                <a
+                  class="nav-link pe-5 active"
+                  aria-current="page"
+                  href="./index.html"
+                >
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-5" href="./games.html">Games</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="btn button-full btn-lg"
+                  href="./signup.html"
+                  role="button"
+                  type="button"
+                >
+                  Sign-up
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
+      </nav>
     </header>
 
     <!--Main section starts here-->
     <main>
+      <section class="container-fluid section" id="hero-home">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-8 col-lg-6" id="hero-text">
+              <h1>Welcome to Gamer's Corner</h1>
+              <p>
+                Gamer's corner is an engaging online community where PC gamers
+                can connect over shared interests. We play games together three
+                times a week and once a week we chat or play depending on what
+                the group feels up to do. We would love for you to join us so be
+                sure to click the sign-up button below.
+              </p>
+              <a
+                class="btn button-full btn-lg mt-2"
+                href="./signup.html"
+                role="button"
+              >
+                Sign-up
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!--Event details for game nights-->
       <section class="container" id="game-nights">
         <div class="row">
@@ -129,104 +132,109 @@
             <h2>Game nights</h2>
           </div>
         </div>
-          <!--Cards syntax from Bootstrap-->
-          <ul class="row list-group list-group-horizontal">
-            <li class="col-12 col-md-6 col-xl-3 list-style d-flex align-items-stretch"> <!--Align-items-stretch taken from stackoverflow, see credits-->
-              <!--Tuesday-->
-              <div class="card cards-game-nights">
-                <img
-                  src="./assets/img/game_night_picture.jpg"
-                  class="card-img-top"
-                  alt="A vector image with a videogame-controller and a monitor sitting ontop of a table and a small ball."
-                />
-                <div class="card-body">
-                  <h3 class="card-title">Tuesday</h3>
-                  <p class="card-text">
-                    It's time for game night, put on you headphones, grab the
-                    mouse and let the games begin!
-                  </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Time: 18:30 to 19:30</li>
-                  <li class="list-group-item">
-                    Game: Elderwood conquest
-                  </li>
-                </ul>
+        <!--Cards syntax from Bootstrap-->
+        <ul class="row list-group list-group-horizontal">
+          <!--Align-items-stretch taken from stackoverflow, see credits-->
+          <li
+            class="col-12 col-md-6 col-xl-3 list-style d-flex align-items-stretch"
+          >
+            <!--Tuesday-->
+            <div class="card cards-game-nights">
+              <img
+                src="./assets/img/game_night_picture.jpg"
+                class="card-img-top"
+                alt="A vector image with a videogame-controller and a monitor sitting ontop of a table and a small ball."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Tuesday</h3>
+                <p class="card-text">
+                  It's time for game night, put on you headphones, grab the
+                  mouse and let the games begin!
+                </p>
               </div>
-            </li>
-            <li class="col-12 col-md-6 col-xl-3 list-style d-flex align-items-stretch"> <!--Align-items-stretch taken from stackoverflow, see credits-->
-              <!--Wednesday-->
-              <div class="card cards-game-nights">
-                <img
-                  src="./assets/img/game_night_picture.jpg"
-                  class="card-img-top"
-                  alt="A vector image with a videogame-controller and a monitor sitting ontop of a table and a small ball."
-                />
-                <div class="card-body">
-                  <h3 class="card-title">Wednesday</h3>
-                  <p class="card-text">
-                    It's time for game night, put on you headphones, grab the
-                    mouse and let the games begin!<br /><i
-                      >PS. Wednesdays are our preliminary days for just
-                      chatting.</i
-                    >
-                  </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Time: 18:30 to 19:30</li>
-                  <li class="list-group-item">
-                    Game: Just chat
-                    <i class="fa-regular fa-comments"></i>
-                  </li>
-                </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Time: 18:30 to 19:30</li>
+                <li class="list-group-item">Game: Elderwood conquest</li>
+              </ul>
+            </div>
+          </li>
+          <!--Align-items-stretch taken from stackoverflow, see credits-->
+          <li
+            class="col-12 col-md-6 col-xl-3 list-style d-flex align-items-stretch"
+          >
+            <!--Wednesday-->
+            <div class="card cards-game-nights">
+              <img
+                src="./assets/img/game_night_picture.jpg"
+                class="card-img-top"
+                alt="A vector image with a videogame-controller and a monitor sitting ontop of a table and a small ball."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Wednesday</h3>
+                <p class="card-text">
+                  It's time for game night, put on you headphones, grab the
+                  mouse and let the games begin! PS. Wednesdays are our
+                  preliminary days for just chatting.
+                </p>
               </div>
-            </li>
-            <li class="col-12 col-md-6 col-xl-3 list-style d-flex align-items-stretch"> <!--Align-items-stretch taken from stackoverflow, see credits-->
-              <!--Fridays-->
-              <div class="card cards-game-nights">
-                <img
-                  src="./assets/img/game_night_picture.jpg"
-                  class="card-img-top"
-                  alt="A vector image with a videogame-controller and a monitor sitting ontop of a table and a small ball."
-                />
-                <div class="card-body">
-                  <h3 class="card-title">Friday</h3>
-                  <p class="card-text">
-                    It's time for game night, put on you headphones, grab the
-                    mouse and let the games begin!
-                  </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Time: 18:30 to 19:30</li>
-                  <li class="list-group-item">Game: Firesong</li>
-                </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Time: 18:30 to 19:30</li>
+                <li class="list-group-item">
+                  Game: Just chat
+                  <i class="fa-regular fa-comments"></i>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!--Align-items-stretch taken from stackoverflow, see credits-->
+          <li
+            class="col-12 col-md-6 col-xl-3 list-style d-flex align-items-stretch"
+          >
+            <!--Fridays-->
+            <div class="card cards-game-nights">
+              <img
+                src="./assets/img/game_night_picture.jpg"
+                class="card-img-top"
+                alt="A vector image with a videogame-controller and a monitor sitting ontop of a table and a small ball."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Friday</h3>
+                <p class="card-text">
+                  It's time for game night, put on you headphones, grab the
+                  mouse and let the games begin!
+                </p>
               </div>
-            </li>
-            <li class="col-12 col-md-6 col-xl-3 list-style d-flex align-items-stretch"> <!--Align-items-stretch taken from stackoverflow, see credits-->
-              <!--Saturdays-->
-              <div class="card cards-game-nights">
-                <img
-                  src="./assets/img/game_night_picture.jpg"
-                  class="card-img-top"
-                  alt="A vector image with a videogame-controller and a monitor sitting ontop of a table and a small ball."
-                />
-                <div class="card-body">
-                  <h3 class="card-title">Saturday</h3>
-                  <p class="card-text">
-                    It's time for game night, put on you headphones, grab the
-                    mouse and let the games begin!
-                  </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Time: 18:30 to 19:30</li>
-                  <li class="list-group-item">
-                    Game: Frostbound covenant
-                  </li>
-                </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Time: 18:30 to 19:30</li>
+                <li class="list-group-item">Game: Firesong</li>
+              </ul>
+            </div>
+          </li>
+          <li
+            class="col-12 col-md-6 col-xl-3 list-style d-flex align-items-stretch"
+          >
+            <!--Align-items-stretch taken from stackoverflow, see credits-->
+            <!--Saturdays-->
+            <div class="card cards-game-nights">
+              <img
+                src="./assets/img/game_night_picture.jpg"
+                class="card-img-top"
+                alt="A vector image with a videogame-controller and a monitor sitting ontop of a table and a small ball."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Saturday</h3>
+                <p class="card-text">
+                  It's time for game night, put on you headphones, grab the
+                  mouse and let the games begin!
+                </p>
               </div>
-            </li>
-          </ul>
-        </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Time: 18:30 to 19:30</li>
+                <li class="list-group-item">Game: Frostbound covenant</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
 
@@ -253,9 +261,9 @@
               <!--Syntax for mailto taken from w3schools-->
               <p>
                 Email:
-                <a href="mailto:emily@gamerscorner.com"
-                  >emily@gamerscorner.com</a
-                >
+                <a href="mailto:emily@gamerscorner.com">
+                  emily@gamerscorner.com
+                </a>
               </p>
             </div>
           </div>
@@ -271,9 +279,9 @@
                 class="social-links"
                 aria-label="A link to twitch.tv that opens in a new tab"
               >
+                <!--fa-xl makes the icon larger, taken from font awesome-->
                 <i class="fa-brands fa-twitch fa-xl"></i>
               </a>
-              <!--fa-xl makes the icon larger, taken from font awesome-->
             </li>
             <li class="nav-item">
               <a
@@ -282,8 +290,9 @@
                 class="social-links"
                 aria-label="A link to instagram that opens in a new tab"
               >
-                <i class="fa-brands fa-instagram fa-xl"></i> </a
-              ><!--fa-xl makes the icon larger, taken from fontawesome-->
+                <!--fa-xl makes the icon larger, taken from fontawesome-->
+                <i class="fa-brands fa-instagram fa-xl"></i>
+              </a>
             </li>
             <li class="nav-item">
               <a
@@ -292,8 +301,9 @@
                 class="social-links"
                 aria-label="A link to instagram that opens in a new tab"
               >
-                <i class="fa-brands fa-youtube fa-xl"></i> </a
-              ><!--fa-xl makes the icon larger, taken from font awesome-->
+                <!--fa-xl makes the icon larger, taken from font awesome-->
+                <i class="fa-brands fa-youtube fa-xl"></i>
+              </a>
             </li>
           </ul>
         </div>
