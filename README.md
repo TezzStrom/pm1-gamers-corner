@@ -198,6 +198,18 @@ _Solution_
 
 ![The result of the changed syntax](./docs/screenshots/bugs/card_gap_problem_solved_2.png)
 
+\*_Sign-up-button_
+
+- While I validated and changed the html code, the sign-up button changed. It turns out that the nav-link was the issue so I erased that.
+
+_Problem_
+
+![The issue](./docs/screenshots/bugs/sig-up-button_error_nav-link.png)
+
+_Solved_
+
+![The issue solved](./docs/screenshots/bugs/sign-up-button_solved.png)
+
 ---
 
 ## Deployment
